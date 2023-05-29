@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./home";
+
 // import '../styles/global.css'; // impor CSS kustom Anda
 // import 'tailwindcss/tailwind.css'; 
 

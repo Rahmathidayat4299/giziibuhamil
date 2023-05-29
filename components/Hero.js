@@ -62,7 +62,7 @@ const Hero = () => {
                   </a>
                 </li>
               </ul>
-              <div class="clients pt-16">
+              {/* <div class="clients pt-16">
                 <h6 class="text-body-color mb-2 flex items-center text-xs font-normal">
                   Some Of Our Clients
                   <span class="bg-body-color ml-2 inline-block h-[1px] w-8"></span>
@@ -87,7 +87,7 @@ const Hero = () => {
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="hidden px-4 lg:block lg:w-1/12"></div>
