@@ -59,7 +59,7 @@ const Card = () => {
                     <span class=" text-base tracking-wide text-indigo-700">
                       
                     </span>
-                    <svg
+                    {/* <svg
                       class="ml-3 lg:ml-6 text-indigo-700"
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -81,7 +81,7 @@ const Card = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       ></path>
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
                 <div class="h-5 w-2"></div>
