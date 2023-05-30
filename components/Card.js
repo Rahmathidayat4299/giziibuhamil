@@ -57,7 +57,7 @@ const Card = () => {
                 <div class="w-full flex justify-end">
                   <button class="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
                     <span class=" text-base tracking-wide text-indigo-700">
-                      Read more
+                      
                     </span>
                     <svg
                       class="ml-3 lg:ml-6 text-indigo-700"

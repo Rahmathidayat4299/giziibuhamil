@@ -58,7 +58,7 @@ const Hero = () => {
                         />
                       </svg>
                     </span>
-                    Download App
+                   
                   </a>
                 </li>
               </ul>
