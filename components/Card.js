@@ -9,7 +9,7 @@ const Card = () => {
             tabindex="0"
             class="focus:outline-none text-center text-3xl lg:text-5xl tracking-wider text-gray-900"
           >
-            Latest from our Blog
+            Gizi utama ibu hamil
           </h1>
         </span>
         <div
@@ -38,7 +38,7 @@ const Card = () => {
                   tabindex="0"
                   class="focus:outline-none text-sm text-white font-semibold tracking-wide"
                 >
-                  19 mei 2021
+                  Mei 2023
                 </p>
               </div>
               <div class="bg-white px-10 py-6 rounded-bl-3xl rounded-br-3xl">
@@ -56,10 +56,8 @@ const Card = () => {
                 </p>
                 <div class="w-full flex justify-end">
                   <button class="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
-                    <span class=" text-base tracking-wide text-indigo-700">
-                      
-                    </span>
-                    {/* <svg
+                    <span class=" text-base tracking-wide text-indigo-700"></span>
+                    <svg
                       class="ml-3 lg:ml-6 text-indigo-700"
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -81,7 +79,7 @@ const Card = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       ></path>
-                    </svg> */}
+                    </svg>
                   </button>
                 </div>
                 <div class="h-5 w-2"></div>

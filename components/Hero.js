@@ -24,7 +24,7 @@ const Hero = () => {
                     Get Started
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary inline-flex items-center justify-center py-4 px-6 text-center text-base font-normal sm:px-10 lg:px-8 xl:px-10"
@@ -58,9 +58,9 @@ const Hero = () => {
                         />
                       </svg>
                     </span>
-                   
+                    Download App
                   </a>
-                </li>
+                </li> */}
               </ul>
               {/* <div class="clients pt-16">
                 <h6 class="text-body-color mb-2 flex items-center text-xs font-normal">
