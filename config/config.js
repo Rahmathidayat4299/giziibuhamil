@@ -15,4 +15,4 @@ const firebaseConfig = {
 const firebaseApp = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0]
 const database = getDatabase(firebaseApp)
 
-export default { database, firebaseApp }
+export { database }
