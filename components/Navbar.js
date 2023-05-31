@@ -13,10 +13,10 @@ const Navbar = () => {
         >
           <img
             src="https://raw.githubusercontent.com/nabati17/capstone_Img/main/img/pregnant.png"
-            class="h-15 mr-3 w-14"
+            class="h-13 mr-3 w-14"
             alt="Logo Gizi "
           />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap ">Ibu Hamil</span>
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ibu Hamil</span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
