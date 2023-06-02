@@ -9,7 +9,7 @@ const Card = () => {
             tabindex="0"
             class="focus:outline-none text-center text-3xl lg:text-5xl tracking-wider text-gray-900"
           >
-            Gizi utama ibu hamil
+            Gizi utama Ibu hamil
           </h1>
         </span>
         <div
@@ -56,7 +56,9 @@ const Card = () => {
                 </p>
                 <div class="w-full flex justify-end">
                   <button class="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
-                    <span class=" text-base tracking-wide text-indigo-700"></span>
+                    <span class=" text-base tracking-wide text-indigo-700">
+                      Read more
+                    </span>
                     <svg
                       class="ml-3 lg:ml-6 text-indigo-700"
                       xmlns="http://www.w3.org/2000/svg"
@@ -123,8 +125,7 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-gray-700 text-sm lg:text-base lg:leading-8 pr-4 tracking-wide mt-2"
                     >
-                      Find the latest events updates or create events, concerts,
-                      conferences, workshops...
+                      Setiap wanita di usia produktif disarankan untuk mengonsumsi asam folat setidaknya 400 mcg perhari sebelum dan selama kehamilan. 
                     </p>
                   </div>
                 </div>
@@ -164,8 +165,7 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-gray-700 text-sm lg:text-base lg:leading-8 pr-4 tracking-wide mt-2"
                     >
-                      Find the latest events updates or create events, concerts,
-                      conferences, workshops...
+                      salah satu fungsi utama kalsium adalah menjaga kesehatan tulang dan gigi manusia. Jadi, selama kehamilan, kalsium mendukung pertumbuhan tulang dan gigi janin serta mengoptimalkan perkembangan jantung, saraf, dan hatinya. Tak hanya itu, perkembangan jantung, proses pembekuan darah, serta peredaran darah pada janin juga tak lepas dari peran kalsium yang cukup dalam tubuh ibu.
                     </p>
                   </div>
                 </div>
