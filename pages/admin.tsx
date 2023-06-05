@@ -13,7 +13,7 @@ const admin = (props: Props) => {
   useEffect(() => {
     console.log(pass)
     if (!pass){
-      route.push('403')
+      // route.push('404')
     }
   }, [pass])
   
@@ -21,7 +21,6 @@ const admin = (props: Props) => {
     <>
       <Navbar />
       <Insert />
-      <div></div>
     </>
   )
 }

@@ -16,7 +16,7 @@ type state = {
 	}
 }
 
-const useFetch = () => {
+const useFetchMak = () => {
 	const dbref = ref(database, 'makanan')
 	const [Data, setData] = useState<state[]>([])
 
@@ -33,4 +33,5 @@ const useFetch = () => {
 	return Data
 }
 
-export default useFetch
+
+export default useFetchMak

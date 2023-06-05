@@ -1,13 +1,13 @@
-import useFetch from '../components/Fetch.ts'
+import useFetchMak from '../components/Fetch.ts'
 import Navbar from '../components/Navbar.js'
 
 const testing = () => {
-	const data = useFetch()
+	const makanan = useFetchMak()
 	return (
 		<div>
 			<Navbar />
 			{
-				data.map((item, id) => (
+				makanan.map((item, id) => (
 					<p key={id}>{item.nama}</p>
 				))
 			}
