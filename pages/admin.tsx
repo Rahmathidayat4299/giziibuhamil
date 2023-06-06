@@ -8,6 +8,7 @@ import Delete from "../components/Delete"
 import { database } from "../config/config"
 import { ref, set } from "firebase/database"
 import { nanoid } from "nanoid"
+import Form from "../components/Form"
 
 type Props = {}
 
@@ -60,12 +61,7 @@ const admin = (props: Props) => {
 				)) : null
 			}
 		  </div>
-      <h1 className='cek p-3'>Insert Data</h1>
-      <form onSubmit={push} className="flex flex-col p-[16px] gap-[10px]">
-        <label htmlFor="nama" className="">Nama Makanan</label>
-        <input type="text" value={name} onChange={(e) => setName(e.target.value)} pattern='[A-Za-z ]{1,20}' title='Only Letter' className="w-full sm:w-[20vw] border-2 border-black" />
-        <button type="submit" className="p-[8px] self-end border-black border rounded-[50px] w-fit hover:bg-gray-950 hover:text-white">Submit</button>
-      </form>
+      <Form />
     </>
   )
 }

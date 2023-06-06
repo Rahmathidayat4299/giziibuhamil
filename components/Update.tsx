@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { database } from '../config/config'
+import { ref } from 'firebase/database'
 
-type Props = {}
+const Update = (data: string) => {
+    const dbref = ref(database, data)
+    const [name, updateName] = useState<any>()
 
-const Update = () => {
-  return (
-  )
+    
+
+  return []
 }
 
 export default Update
