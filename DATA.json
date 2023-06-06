@@ -1,6 +1,7 @@
 {
-  "makanan": [
-    {
+  "makanan": {
+    "LYDSh_aKVGBRJA2R": {
+      "id": "LYDSh_aKVGBRJA2R",
       "nama": "Bayam",
       "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Bayam.jpg?raw=true",
       "gizi": {
@@ -13,7 +14,8 @@
       },
       "manfaat": "Mengandung zat besi, asam folat, dan serat yang baik untuk pembentukan sel darah merah dan perkembangan otak janin."
     },
-    {
+    "YHcKFQ8hGIh_7dG4": {
+      "id": "YHcKFQ8hGIh_7dG4",
       "nama": "Alpukat",
       "image": "https://github.com/nabati17/capstone_Img/blob/main/img/alpukat.jpg?raw=true",
       "gizi": {
@@ -26,7 +28,8 @@
       },
       "manfaat": "Kaya akan asam folat, vitamin K, vitamin C, dan serat yang penting untuk pertumbuhan dan perkembangan janin."
     },
-    {
+    "ab8f-GLfhgqwDc6-": {
+      "id": "ab8f-GLfhgqwDc6-",
       "nama": "Telur",
       "image": "https://github.com/nabati17/capstone_Img/blob/main/img/telur.jpg?raw=true",
       "gizi": {
@@ -38,238 +41,8 @@
         "vitamin": ["A", "B2", "B5", "B12", "D", "E", "K"]
       },
       "manfaat": "Sumber protein tinggi, kolin, dan asam amino esensial yang diperlukan untuk pertumbuhan jaringan tubuh dan perkembangan otak janin."
-    },
-    {
-      "nama": "Salmon",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/salmon.jpg?raw=true",
-      "gizi": {
-        "kalori": 206,
-        "karbohidrat": 0,
-        "protein": 22,
-        "lemak": 13,
-        "serat": 0,
-        "vitamin": ["A", "C", "B6", "B12"]
-      },
-      "manfaat": "Sumber asam lemak omega-3, protein, dan vitamin D yang berperan dalam perkembangan otak dan sistem saraf janin."
-    },
-    {
-      "nama": "Jeruk",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/jeruk.jpg?raw=true",
-      "gizi": {
-        "kalori": 43,
-        "karbohidrat": 11,
-        "protein": 0.9,
-        "lemak": 0.1,
-        "serat": 2.3,
-        "vitamin": ["A", "B1", "C"]
-      },
-      "manfaat": "Kaya akan vitamin C, serat, dan antioksidan yang penting untuk sistem kekebalan tubuh dan perkembangan sel-sel janin."
-    },
-    {
-      "nama": "Pisang",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/pisang.jpg?raw=true",
-      "gizi": {
-        "kalori": 96,
-        "karbohidrat": 25,
-        "protein": 1.2,
-        "lemak": 0.2,
-        "serat": 3.1,
-        "vitamin": ["A", "B6", "C"]
-      },
-      "manfaat": "Sumber protein nabati, serat, asam folat, dan zat besi yang penting untuk pertumbuhan dan perkembangan janin serta menjaga kesehatan saluran pencernaan."
-    },
-    {
-      "nama": "Yogurt",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Yogurt.jpg?raw=true",
-      "gizi": {
-        "kalori": 149,
-        "karbohidrat": 8.5,
-        "protein": 10,
-        "lemak": 8,
-        "serat": 0,
-        "vitamin": ["A", "B1", "B2", "B6", "B12", "C", "D"]
-      },
-      "manfaat": "Mengandung kalsium, protein, probiotik, dan vitamin B12 yang baik untuk perkembangan tulang dan sistem pencernaan ibu hamil."
-    },
-    {
-      "nama": "Brokoli",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/broccoli.jpg?raw=true",
-      "gizi": {
-        "kalori": 55,
-        "karbohidrat": 11.2,
-        "protein": 4.2,
-        "lemak": 0.6,
-        "serat": 5.1,
-        "vitamin": ["A", "B", "C", "K"]
-      },
-      "manfaat": "Sumber vitamin C, asam folat, kalsium, dan serat yang membantu dalam pembentukan jaringan tubuh dan menjaga kesehatan sistem pencernaan."
-    },
-    {
-      "nama": "Kacang almond",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Kacang-Almon.jpg?raw=true",
-      "gizi": {
-        "kalori": 164,
-        "karbohidrat": 6,
-        "protein": 6,
-        "lemak": 14,
-        "serat": 3.5,
-        "vitamin": ["E", "B2"]
-      },
-      "manfaat": "Kaya akan vitamin E, asam lemak sehat, protein, dan serat yang baik untuk pertumbuhan janin, kesehatan otak, dan keseimbangan gula darah."
-    },
-    {
-      "nama": "Jagung",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/jagung.jpg?raw=true",
-      "gizi": {
-        "kalori": 86,
-        "karbohidrat": 19,
-        "protein": 3,
-        "lemak": 1,
-        "serat": 2,
-        "vitamin": ["A", "B1", "B9", "B12", "C", "E"]
-      },
-      "manfaat": "Sumber karbohidrat kompleks, serat, dan vitamin B kompleks yang membantu menjaga kesehatan saluran pencernaan dan memenuhi kebutuhan energi ibu hamil."
-    },
-
-    {
-      "nama": "Quinoa",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Quinoa.jpg?raw=true",
-      "gizi": {
-        "kalori": 120,
-        "karbohidrat": 21.3,
-        "protein": 4.4,
-        "lemak": 1.9,
-        "serat": 2.6,
-        "vitamin": ["A", "B", "E"]
-      },
-      "manfaat": "Sumber karbohidrat kompleks, protein, serat, dan zat besi yang baik untuk perkembangan otak janin dan menjaga kesehatan pencernaan."
-    },
-    {
-      "nama": "Tahu",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/tahu.jpg?raw=true",
-      "gizi": {
-        "kalori": 144,
-        "karbohidrat": 2.4,
-        "protein": 15.8,
-        "lemak": 8.2,
-        "serat": 0.6,
-        "vitamin": ["B1", "B2"]
-      },
-      "manfaat": "Sumber protein nabati, kalsium, zat besi, dan asam lemak sehat yang baik untuk pertumbuhan dan perkembangan janin."
-    },
-    {
-      "nama": "Labu",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/labu.jpg?raw=true",
-      "gizi": {
-        "kalori": 26,
-        "karbohidrat": 6.5,
-        "protein": 0.5,
-        "lemak": 0.1,
-        "serat": 0.5,
-        "vitamin": ["A", "C", "E", "K"]
-      },
-      "manfaat": "Kaya akan beta-karoten, vitamin C, serat, dan antioksidan yang penting untuk perkembangan sel-sel janin dan menjaga kesehatan sistem kekebalan tubuh."
-    },
-    {
-      "nama": "Kedelai",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/kedelai.jpg?raw=true",
-      "gizi": {
-        "kalori": 446,
-        "karbohidrat": 30.2,
-        "protein": 36.5,
-        "lemak": 19.9,
-        "serat": 9.3,
-        "vitamin": {
-          "E": 8.6,
-          "K": 47
-        }
-      },
-      "manfaat": "Sumber protein nabati, serat, zat besi, dan kalsium yang baik untuk pertumbuhan janin dan kesehatan tulang ibu hamil."
-    },
-
-    {
-      "nama": "Kentang",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/kentang.jpg?raw=true",
-      "gizi": {
-        "kalori": 86,
-        "karbohidrat": 20.1,
-        "protein": 1.6,
-        "lemak": 0.1,
-        "serat": 3,
-        "vitamin": {
-          "A": 192,
-          "C": 33,
-          "B6": 0.2
-        }
-      },
-      "manfaat": "Kaya akan vitamin A, vitamin C, serat, dan karotenoid yang baik untuk perkembangan sistem imun janin dan menjaga kesehatan mata."
-    },
-    {
-      "nama": "Ikan teri",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/ikan%20teri.jpg?raw=true",
-      "gizi": {
-        "kalori": 206,
-        "karbohidrat": 0,
-        "protein": 22,
-        "lemak": 13,
-        "serat": 0,
-        "vitamin": ["A", "B2", "B12"]
-      },
-      "manfaat": "Sumber protein tinggi, asam lemak omega-3, kalsium, dan zat besi yang penting untuk pertumbuhan dan perkembangan janin serta kesehatan tulang ibu hamil."
-    },
-    {
-      "nama": "Keju",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/keju.jpg?raw=true",
-      "gizi": {
-        "kalori": 98,
-        "karbohidrat": 3.4,
-        "protein": 11,
-        "lemak": 4.3,
-        "serat": 0,
-        "vitamin": ["A", "B12", "D", "K"]
-      },
-      "manfaat": "Sumber protein, kalsium, fosfor, dan vitamin B12 yang baik untuk perkembangan tulang janin dan kesehatan gigi ibu hamil."
-    },
-    {
-      "nama": "Wortel",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/wortel.jpg?raw=true",
-      "gizi": {
-        "kalori": 41,
-        "karbohidrat": 9.6,
-        "protein": 0.9,
-        "lemak": 0.2,
-        "serat": 2.8,
-        "vitamin": ["A", "B1", "B2", "B3", "B6", "B9", "E", "K"]
-      },
-      "manfaat": "Kaya akan vitamin A, vitamin K, serat, dan antioksidan yang penting untuk perkembangan sel-sel janin dan menjaga kesehatan mata."
-    },
-    {
-      "nama": "Buncis",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/buncis.jpg?raw=true",
-      "gizi": {
-        "kalori": 31,
-        "karbohidrat": 7.1,
-        "protein": 1.8,
-        "lemak": 0.2,
-        "serat": 2.7,
-        "vitamin": ["A", "B", "C", "K"]
-      },
-      "manfaat": "Sumber vitamin K, vitamin C, serat, dan zat besi yang baik untuk pembentukan sel darah merah dan perkembangan tulang janin."
-    },
-    {
-      "nama": "Buah plum",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/buah_plum.jpg?raw=true",
-      "gizi": {
-        "kalori": 46,
-        "karbohidrat": 11.4,
-        "protein": 0.7,
-        "lemak": 0.3,
-        "serat": 1.4,
-        "vitamin": ["A", "B1", "B2", "B3", "B6", "C", "K"]
-      },
-      "manfaat": "Kaya akan serat, vitamin C, vitamin K, dan antioksidan yang penting untuk sistem pencernaan, pertumbuhan sel janin, dan menjaga kesehatan kulit."
     }
-  ],
+  },
   "ip": [
     {
         "admin": "182.253.162.94"
@@ -277,5 +50,5 @@
     {
         "admin": "182.253.162.70"
     }
-]
+  ]
 }

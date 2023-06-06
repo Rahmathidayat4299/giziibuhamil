@@ -3,6 +3,7 @@ import { database } from '../config/config.js'
 import { useEffect, useState } from 'react'
 
 type state = {
+	id: string;
 	nama: string
 	manfaat: string
 	image: string
@@ -16,14 +17,24 @@ type state = {
 	}
 }
 
-const useFetchMak = () => {
-	const dbref = ref(database, 'makanan')
+const useFetch = (data: string) => {
+	const dbref = ref(database, data)
 	const [Data, setData] = useState<state[]>([])
 
 	const fetching = () => {
 		onValue(dbref, (e) => {
-			const data = e.val()
-			setData(data)
+			// const data = e.()
+			// // setData(data)
+			const arrayFetch = Object.keys(e.val()).map((key, i) => {
+				return ({
+					id: key,
+					...e.val()[key]
+				})
+			}) as state[]
+			setData(arrayFetch)
+			// console.log(arrayFetch)
+			// console.log(Object.keys(e.val()));
+			
 		})
 	}
 
@@ -34,4 +45,4 @@ const useFetchMak = () => {
 }
 
 
-export default useFetchMak
+export default useFetch
