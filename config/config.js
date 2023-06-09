@@ -2,7 +2,7 @@ import { initializeApp, getApps } from 'firebase/app'
 import { getDatabase } from 'firebase/database'
 
 const firebaseConfig = {
-	apiKey: "AIzaSyCRl6Cy_J20_0Hyn8cUupKPcfdC0X1LfNM",
+	apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
 	authDomain: "giziibuhamil-83b72.firebaseapp.com",
 	projectId: "giziibuhamil-83b72",
 	databaseURL: "https://giziibuhamil-83b72-default-rtdb.asia-southeast1.firebasedatabase.app",
