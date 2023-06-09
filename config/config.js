@@ -2,7 +2,7 @@ import { initializeApp, getApps } from 'firebase/app'
 import { getDatabase } from 'firebase/database'
 
 const firebaseConfig = {
-	apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+	apiKey: AIzaSyCRl6Cy_J20_0Hyn8cUupKPcfdC0X1LfNM,
 	authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
 	projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
 	databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
