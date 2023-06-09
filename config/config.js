@@ -2,13 +2,13 @@ import { initializeApp, getApps } from 'firebase/app'
 import { getDatabase } from 'firebase/database'
 
 const firebaseConfig = {
-	apiKey: AIzaSyCRl6Cy_J20_0Hyn8cUupKPcfdC0X1LfNM,
-	authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-	projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-	databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
-	storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-	messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-	appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
+	apiKey: "AIzaSyCRl6Cy_J20_0Hyn8cUupKPcfdC0X1LfNM",
+	authDomain: "giziibuhamil-83b72.firebaseapp.com",
+	projectId: "giziibuhamil-83b72",
+	databaseURL: "https://giziibuhamil-83b72-default-rtdb.asia-southeast1.firebasedatabase.app",
+	storageBucket: "giziibuhamil-83b72.appspot.com",
+	messagingSenderId: "107500521779",
+	appId: "1:107500521779:web:cdad2de32bab67e809d646"
 }
 
 // Initialize Firebase
