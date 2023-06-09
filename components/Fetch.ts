@@ -32,9 +32,6 @@ const useFetch = (data: string) => {
 				})
 			}) as state[]
 			setData(arrayFetch)
-			// console.log(arrayFetch)
-			// console.log(Object.keys(e.val()));
-			
 		})
 	}
 

@@ -14,12 +14,13 @@ type Props = {}
 
 const admin = (props: Props) => {
   const makan = useFetch('makanan/')
+  const minum = useFetch('minuman/')
+  const supp = useFetch('suplement/')
   const [name, setName] = useState<any>()
   const pass = useIpcheck()
   const route = useRouter()
 
   useEffect(() => {
-    console.log(pass)
     if (!pass){
       // route.push('404')
     }
@@ -27,7 +28,6 @@ const admin = (props: Props) => {
   
   const push = (e: SyntheticEvent) => {
     e.preventDefault()
-    console.log(name)
     const id = nanoid(16)
     set(ref(database, 'makanan/' + id), {
       nama: name,
@@ -54,8 +54,32 @@ const admin = (props: Props) => {
 			  makan.length ? makan.map((item, id) => (
           <>
             <div className="flex justify-between">
-              <p key={id}>{`${id} ${item.nama}`}</p>
+              <p key={id}>{`${id + 1} ${item.nama}`}</p>
               <Delete itemId={item.id} typeFetch='makanan/'/>
+            </div>
+          </>
+				)) : null
+			}
+		  </div>
+      <div>
+			{
+			  minum.length ? minum.map((item, id) => (
+          <>
+            <div className="flex justify-between">
+              <p key={id}>{`${id + 1} ${item.nama}`}</p>
+              <Delete itemId={item.id} typeFetch='minuman/'/>
+            </div>
+          </>
+				)) : null
+			}
+		  </div>
+      <div>
+			{
+			  supp.length ? supp.map((item, id) => (
+          <>
+            <div className="flex justify-between">
+              <p key={id}>{`${id + 1} ${item.nama}`}</p>
+              <Delete itemId={item.id} typeFetch='suplement/'/>
             </div>
           </>
 				)) : null

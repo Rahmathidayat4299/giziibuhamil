@@ -5,15 +5,13 @@ import useFetch from './Fetch'
 
 type Props = {
   itemId: string
-  typeFetch: 'makanan/' | 'minuman/' 
+  typeFetch: 'makanan/' | 'minuman/' | 'suplement/'
 }
 
 const Delete = (props: Props) => {
-  console.log(props.itemId)
-  const dbref = ref(database, 'makanan/' + props.itemId)
+  const dbref = ref(database, props.typeFetch + props.itemId)
   const del = () => {
     remove(dbref).catch(alert)
-    console.log('cek')
   }
   return (
     <>
