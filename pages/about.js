@@ -1,7 +1,6 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../components/index'
-import Insert from '../components/Insert'
 const About = () => {
 	return (
 		<div>
