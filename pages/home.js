@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import "../components/index.js";
+// hi im najib, im from branch improvements
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
