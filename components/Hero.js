@@ -24,70 +24,9 @@ const Hero = () => {
                     Get Started
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-body-color hover:text-primary inline-flex items-center justify-center py-4 px-6 text-center text-base font-normal sm:px-10 lg:px-8 xl:px-10"
-                  >
-                    <span class="mr-2">
-                      <svg
-                        width="22"
-                        height="22"
-                        viewBox="0 0 22 22"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle cx="11" cy="11" r="11" fill="#3056D3" />
-                        <rect
-                          x="6.90906"
-                          y="13.3636"
-                          width="8.18182"
-                          height="1.63636"
-                          fill="white"
-                        />
-                        <rect
-                          x="10.1818"
-                          y="6"
-                          width="1.63636"
-                          height="4.09091"
-                          fill="white"
-                        />
-                        <path
-                          d="M11 12.5454L13.8343 9.47726H8.16576L11 12.5454Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                    Download App
-                  </a>
-                </li> */}
+                {}
               </ul>
-              {/* <div class="clients pt-16">
-                <h6 class="text-body-color mb-2 flex items-center text-xs font-normal">
-                  Some Of Our Clients
-                  <span class="bg-body-color ml-2 inline-block h-[1px] w-8"></span>
-                </h6>
-                <div class="flex items-center">
-                  <div class="mr-4 w-full py-3">
-                    <img
-                      src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
-                      alt="ayroui"
-                    />
-                  </div>
-                  <div class="mr-4 w-full py-3">
-                    <img
-                      src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
-                      alt="graygrids"
-                    />
-                  </div>
-                  <div class="mr-4 w-full py-3">
-                    <img
-                      src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg"
-                      alt="uideck"
-                    />
-                  </div>
-                </div>
-              </div> */}
+              {}
             </div>
           </div>
           <div class="hidden px-4 lg:block lg:w-1/12"></div>
@@ -97,7 +36,7 @@ const Hero = () => {
                 <img
                   src="https://i.pinimg.com/564x/5d/a1/cb/5da1cb8daa16aea6a81ce2f5349fde9a.jpg"
                   alt="hero"
-                  class="max-w-full lg:ml-auto"
+                  class="max-w-full lg:ml-auto  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
                 <span class="absolute -left-8 -bottom-8 z-[-1]">
                   <svg
