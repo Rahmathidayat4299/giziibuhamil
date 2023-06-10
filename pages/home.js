@@ -23,7 +23,7 @@ class Home extends Component {
             masa kehamilan. Kami paham betapa pentingnya asupan nutrisi yang
             tepat bagi perkembangan janin dan kesehatan ibu hamil.
           </p>
-          <Button href="card" text="Pelajari Lebih Lanjut" />
+          {/* <Button href="card" text="Pelajari Lebih Lanjut" /> */}
         </div>
         <Card />
 
@@ -33,4 +33,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Home

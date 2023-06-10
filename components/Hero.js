@@ -17,12 +17,12 @@ const Hero = () => {
               </p>
               <ul class="flex flex-wrap items-center">
                 <li>
-                  <a
+                  {/* <a
                     href="javascript:void(0)"
                     class="bg-primary inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
                   >
                     Get Started
-                  </a>
+                  </a> */}
                 </li>
                 {}
               </ul>

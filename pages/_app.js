@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import '../styles/global.css';
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -12,6 +13,11 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
     </>
   );
+
+function MyApp ({ Component, pageProps }) {
+	return <Component {...pageProps} />
+
+}
 }
 
 export default MyApp;
