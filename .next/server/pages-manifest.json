@@ -7,5 +7,9 @@
   "/_error": "pages/_error.js",
   "/testing": "pages/testing.html",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/404": "pages/404.html"
+=======
+  "/": "pages/index.js"
+>>>>>>> f94700c4aacbbdc09e3f0d84b07ed51e5f2a7da0
 }

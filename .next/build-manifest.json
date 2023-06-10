@@ -17,7 +17,10 @@
       "static/chunks/664-e5051571aa90d57f.js",
       "static/chunks/133-81dd3825eadd2b5f.js",
       "static/chunks/53-a6b9362313fb3297.js",
-      "static/chunks/pages/index-f70d06f1be41eff5.js"
+      "static/chunks/pages/index-f70d06f1be41eff5.js",
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -65,7 +68,10 @@
       "static/chunks/a198fdd9-570d6c645a9b329e.js",
       "static/chunks/664-e5051571aa90d57f.js",
       "static/chunks/142-ccae18ff0bc64050.js",
-      "static/chunks/pages/testing-cf72861369a75bf4.js"
+      "static/chunks/pages/testing-cf72861369a75bf4.js",
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []
