@@ -37,6 +37,7 @@ const admin = (props: Props) => {
           <>
             <div className="flex justify-between">
               <p key={id}>{`${id + 1} ${item.nama}`}</p>
+              <p key={id}>{`${item.trimester}`}</p>
               <Delete itemId={item.id} typeFetch='makanan/'/>
             </div>
           </>

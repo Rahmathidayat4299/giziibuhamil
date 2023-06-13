@@ -8,27 +8,28 @@ const Form = (data: string) => {
   const spliced = data.replace('/','')
   const [name, setName] = useState<any>()
   const push = (e: SyntheticEvent) => {
-    const insertedAt = new Date()
+    const insertedAt = new Date().toJSON()
     console.log(insertedAt)
     e.preventDefault()
     const id = nanoid(16)
     const combined = id + insertedAt
     console.log(combined)
-    // set(ref(database, data + combined), {
-    //   nama: name,
-    //   image: "",
-    //   gizi: {
-    //     kalori: 0,
-    //     karbohidrat: 0,
-    //     lemak: 0,
-    //     protein: 0,
-    //     serat: 0,
-    //     vitamin: ""
-    //   },
-    //   manfaat: ""
-    // }).then(() => {
-    //   setName('')
-    // }).catch(alert)
+    set(ref(database, data + combined), {
+      nama: name,
+      image: "",
+      gizi: {
+        kalori: "",
+        karbohidrat: "",
+        lemak: "",
+        protein: "",
+        serat: "",
+        vitamin: ""
+      },
+      manfaat: "",
+      trimester: "",
+    }).then(() => {
+      setName('')
+    }).catch(alert)
   }
   return (
     <>
