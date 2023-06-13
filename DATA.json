@@ -12,7 +12,8 @@
         "serat": 2.2,
         "vitamin": ["A", "B", "C", "E"]
       },
-      "manfaat": "Mengandung zat besi, asam folat, dan serat yang baik untuk pembentukan sel darah merah dan perkembangan otak janin."
+      "manfaat": "Mengkonsumsi bayam bagi ibu hamil di trimester pertama memiliki manfaat meningkatkan asupan zat besi, asam folat, serat, dan antioksidan yang penting untuk kesehatan ibu dan perkembangan janin",
+      "trimester": 1
     },
     "YHcKFQ8hGIh_7dG4": {
       "id": "YHcKFQ8hGIh_7dG4",
@@ -26,7 +27,8 @@
         "serat": 7,
         "vitamin": ["B", "B6", "C", "K"]
       },
-      "manfaat": "Kaya akan asam folat, vitamin K, vitamin C, dan serat yang penting untuk pertumbuhan dan perkembangan janin."
+      "manfaat": "Mengkonsumsi alpukat bagi ibu hamil di trimester pertama memiliki manfaat memberikan asupan lemak sehat, vitamin K, folat, dan serat yang penting untuk kesehatan ibu dan perkembangan janin",
+      "trimester": 1
     },
     "ab8f-GLfhgqwDc6-": {
       "id": "ab8f-GLfhgqwDc6-",
@@ -40,21 +42,8 @@
         "serat": 0,
         "vitamin": ["A", "B2", "B5", "B12", "D", "E", "K"]
       },
-      "manfaat": "Sumber protein tinggi, kolin, dan asam amino esensial yang diperlukan untuk pertumbuhan jaringan tubuh dan perkembangan otak janin."
-    },
-    "74I4mMJJIp___Fcv": {
-      "id": "74I4mMJJIp___Fcv",
-      "nama": "Salmon",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/salmon.jpg?raw=true",
-      "gizi": {
-        "kalori": 206,
-        "karbohidrat": 0,
-        "protein": 22,
-        "lemak": 13,
-        "serat": 0,
-        "vitamin": ["A", "C", "B6", "B12"]
-      },
-      "manfaat": "Sumber asam lemak omega-3, protein, dan vitamin D yang berperan dalam perkembangan otak dan sistem saraf janin."
+      "manfaat": "Mengkonsumsi telur bagi ibu hamil di trimester pertama memiliki manfaat memberikan Sumber protein tinggi, kolin, dan asam amino esensial yang diperlukan untuk pertumbuhan jaringan tubuh dan perkembangan otak janin.",
+      "trimester": 1
     },
     "Ymybac9QS5zcraKl": {
       "id": "Ymybac9QS5zcraKl",
@@ -68,7 +57,8 @@
         "serat": 2.3,
         "vitamin": ["A", "B1", "C"]
       },
-      "manfaat": "Kaya akan vitamin C, serat, dan antioksidan yang penting untuk sistem kekebalan tubuh dan perkembangan sel-sel janin."
+      "manfaat": "Mengkonsumsi jeruk bagi ibu hamil pada trimester pertama sangat banyak manfaatnya karena jeruk kaya akan vitamin C, serat, dan antioksidan yang penting untuk sistem kekebalan tubuh dan perkembangan sel-sel janin.",
+      "trimester": 1
     },
     "mUCnZ5FKW6iXXd3C": {
       "id": "mUCnZ5FKW6iXXd3C",
@@ -82,7 +72,8 @@
         "serat": 3.1,
         "vitamin": ["A", "B6", "C"]
       },
-      "manfaat": "Sumber protein nabati, serat, asam folat, dan zat besi yang penting untuk pertumbuhan dan perkembangan janin serta menjaga kesehatan saluran pencernaan."
+      "manfaat": " Mengkonsumsi pisang bagi ibu hamil di trimester pertama memiliki manfaat memberikan sumber protein nabati, serat, asam folat, dan zat besi yang penting untuk pertumbuhan dan perkembangan janin serta menjaga kesehatan saluran pencernaan.",
+      "trimester": 1
     },
     "VCrd22XSJF5XfQp4": {
       "id": "VCrd22XSJF5XfQp4",
@@ -96,7 +87,23 @@
         "serat": 0,
         "vitamin": ["A", "B1", "B2", "B6", "B12", "C", "D"]
       },
-      "manfaat": "Mengandung kalsium, protein, probiotik, dan vitamin B12 yang baik untuk perkembangan tulang dan sistem pencernaan ibu hamil."
+      "manfaat": "Mengkonsumsi yogurt bagi ibu hamil di trimester pertama dapat memberikan nutrisi penting seperti kalsium, protein, dan probiotik yang mendukung perkembangan janin dan kesehatan pencernaan ibu",
+      "trimester": 1
+    },
+    "74I4mMJJIp___Fcv": {
+      "id": "74I4mMJJIp___Fcv",
+      "nama": "Salmon",
+      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/salmon.jpg?raw=true",
+      "gizi": {
+        "kalori": 206,
+        "karbohidrat": 0,
+        "protein": 22,
+        "lemak": 13,
+        "serat": 0,
+        "vitamin": ["A", "C", "B6", "B12"]
+      },
+      "manfaat": "Mengkonsumsi salmon bagi ibu hamil di trimester kedua dapat memberikan nutrisi penting seperti asam lemak omega-3 dan protein yang mendukung perkembangan otak dan sistem saraf janin.",
+      "trimester": 2
     },
     "DhkrOg_UutOoLI9W": {
       "id": "DhkrOg_UutOoLI9W",
@@ -110,7 +117,8 @@
         "serat": 5.1,
         "vitamin": ["A", "B", "C", "K"]
       },
-      "manfaat": "Sumber vitamin C, asam folat, kalsium, dan serat yang membantu dalam pembentukan jaringan tubuh dan menjaga kesehatan sistem pencernaan."
+      "manfaat": "Mengkonsumsi brokoli bagi ibu hamil di trimester kedua dapat memberikan sumber vitamin C, asam folat, kalsium, dan serat yang membantu dalam pembentukan jaringan tubuh, kesehatan tulang dan menjaga kesehatan sistem pencernaan.",
+      "trimester": 2
     },
     "2eDG2HzJnvjNfnS2": {
       "id": "2eDG2HzJnvjNfnS2",
@@ -124,7 +132,8 @@
         "serat": 3.5,
         "vitamin": ["E", "B2"]
       },
-      "manfaat": "Kaya akan vitamin E, asam lemak sehat, protein, dan serat yang baik untuk pertumbuhan janin, kesehatan otak, dan keseimbangan gula darah."
+      "manfaat": "Mengkonsumsi kacang almond selama trimester kedua kehamilan dapat memberikan nutrisi yang kaya akan vitamin E, asam lemak sehat, protein, dan serat yang baik untuk pertumbuhan janin, kesehatan otak, dan keseimbangan gula darah.",
+      "trimester": 2
     },
     "Ixw97cD9xLwrJuoN": {
       "id": "Ixw97cD9xLwrJuoN",
@@ -138,7 +147,8 @@
         "serat": 2,
         "vitamin": ["A", "B1", "B9", "B12", "C", "E"]
       },
-      "manfaat": "Sumber karbohidrat kompleks, serat, dan vitamin B kompleks yang membantu menjaga kesehatan saluran pencernaan dan memenuhi kebutuhan energi ibu hamil."
+      "manfaat": "Mengkonsumsi jagung selama trimester kedua kehamilan dapat memberikan nutrisi penting seperti sumber karbohidrat kompleks, asam folat, serat, dan vitamin B kompleks yang mendukung pertumbuhan janin dan kesehatan ibu hamil",
+      "trimester": 2
     },
     "UQhaHokF8uh5EKAZ": {
       "id": "UQhaHokF8uh5EKAZ",
@@ -152,7 +162,8 @@
         "serat": 2.6,
         "vitamin": ["A", "B", "E"]
       },
-      "manfaat": "Sumber karbohidrat kompleks, protein, serat, dan zat besi yang baik untuk perkembangan otak janin dan menjaga kesehatan pencernaan."
+      "manfaat": "Mengkonsumsi Quinoa bagi ibu hamil di trimester kedua dapat memberikan asupan nutrisi yang kaya, termasuk protein, serat, dan zat besi yang baik untuk perkembangan otak janin dan menjaga kesehatan janin",
+      "trimester": 2
     },
     "AkAfhGkACmjKB1WZ": {
       "id": "AkAfhGkACmjKB1WZ",
@@ -166,7 +177,8 @@
         "serat": 0.6,
         "vitamin": ["B1", "B2"]
       },
-      "manfaat": "Sumber protein nabati, kalsium, zat besi, dan asam lemak sehat yang baik untuk pertumbuhan dan perkembangan janin."
+      "manfaat": "Mengkonsumsi tahu bagi ibu hamil di trimester kedua dapat memberikan asupan protein, nabati, kalsium, zat besi, dan asam lemak sehat yang baik untuk pertumbuhan dan perkembangan janin.",
+      "trimester": 2
     },
     "g6-Cc48aFYIYx4hB": {
       "id": "g6-Cc48aFYIYx4hB",
@@ -180,7 +192,8 @@
         "serat": 0.5,
         "vitamin": ["A", "C", "E", "K"]
       },
-      "manfaat": "Kaya akan beta-karoten, vitamin C, serat, dan antioksidan yang penting untuk perkembangan sel-sel janin dan menjaga kesehatan sistem kekebalan tubuh."
+      "manfaat": "Mengkonsumsi labu pada trimester ketiga kehamilan dapat memberikan nutrisi yang kaya akan beta-karoten, vitamin, serat, dan antioksidan yang penting untuk perkembangan sel-sel janin dan menjaga kesehatan sistem kekebalan tubuh.",
+      "trimester": 3
     },
     "eB0oTXOZiZeideNw": {
       "id": "eB0oTXOZiZeideNw",
@@ -192,12 +205,10 @@
         "protein": 36.5,
         "lemak": 19.9,
         "serat": 9.3,
-        "vitamin": {
-          "E": 8.6,
-          "K": 47
-        }
+        "vitamin": ["E", "K"]
       },
-      "manfaat": "Sumber protein nabati, serat, zat besi, dan kalsium yang baik untuk pertumbuhan janin dan kesehatan tulang ibu hamil."
+      "manfaat": "Mengkonsumsi kedelai bagi ibu hamil di trimester ketiga dapat memberikan nutrisi penting seperti sumber protein nabati, serat, zat besi, dan kalsium yang baik untuk pertumbuhan janin dan kesehatan tulang ibu hamil.",
+      "trimester": 3
     },
     "nHHVlGMJLWLpz1tE": {
       "id": "nHHVlGMJLWLpz1tE",
@@ -215,7 +226,8 @@
           "B6": 0.2
         }
       },
-      "manfaat": "Kaya akan vitamin A, vitamin C, serat, dan karotenoid yang baik untuk perkembangan sistem imun janin dan menjaga kesehatan mata."
+      "manfaat": "Mengkonsumsi kentang bagi ibu hamil di trimester 3 dapat memberikan asupan serat,kaya akan vitamin, serat, dan karotenoid yang baik untuk perkembangan sistem imun janin dan menjaga kesehatan mata.",
+      "trimester": 3
     },
     "0lzjbmVZYUJupPzG": {
       "id": "0lzjbmVZYUJupPzG",
@@ -229,7 +241,8 @@
         "serat": 0,
         "vitamin": ["A", "B2", "B12"]
       },
-      "manfaat": "Sumber protein tinggi, asam lemak omega-3, kalsium, dan zat besi yang penting untuk pertumbuhan dan perkembangan janin serta kesehatan tulang ibu hamil."
+      "manfaat": "Mengkonsumsi ikan teri bagi ibu hamil di trimester 3 dapat memberikan nutrisi penting seperti asam lemak omega-3, protein, dan kalsium yang dapat mendukung perkembangan otak dan tulang janin",
+      "trimester": 3
     },
     "I8Ih-PHM7Z2EL1PF": {
       "id": "I8Ih-PHM7Z2EL1PF",
@@ -243,7 +256,8 @@
         "serat": 0,
         "vitamin": ["A", "B12", "D", "K"]
       },
-      "manfaat": "Sumber protein, kalsium, fosfor, dan vitamin B12 yang baik untuk perkembangan tulang janin dan kesehatan gigi ibu hamil."
+      "manfaat": "Mengkonsumsi keju saat trimester ketiga kehamilan dapat memberikan asupan kalsium dan protein yang penting untuk perkembangan tulang dan otot janin",
+      "trimester": 3
     },
     "TkPl7JuRXFtNenNB": {
       "id": "TkPl7JuRXFtNenNB",
@@ -257,7 +271,8 @@
         "serat": 2.8,
         "vitamin": ["A", "B1", "B2", "B3", "B6", "B9", "E", "K"]
       },
-      "manfaat": "Kaya akan vitamin A, vitamin K, serat, dan antioksidan yang penting untuk perkembangan sel-sel janin dan menjaga kesehatan mata."
+      "manfaat": "Mengkonsumsi wortel pada trimester ketiga kehamilan dapat memberikan manfaat nutrisi seperti vitamin A, vitamin K, serat, dan antioksidan yang penting untuk perkembangan sel-sel janin dan menjaga kesehatan mata.",
+      "trimester": 3
     },
     "OjBRVks_qtzhDzBi": {
       "id": "OjBRVks_qtzhDzBi",
@@ -271,7 +286,8 @@
         "serat": 2.7,
         "vitamin": ["A", "B", "C", "K"]
       },
-      "manfaat": "Sumber vitamin K, vitamin C, serat, dan zat besi yang baik untuk pembentukan sel darah merah dan perkembangan tulang janin."
+      "manfaat": "Mengkonsumsi buncis saat trimester ketiga kehamilan dapat memberikan manfaat sebagai sumber vitamin K, vitamin C, serat, dan zat besi yang baik untuk pembentukan sel darah merah dan perkembangan tulang janin.",
+      "trimester": 3
     },
     "p6emYJT0Sal7HoHv": {
       "id": "p6emYJT0Sal7HoHv",
@@ -285,7 +301,8 @@
         "serat": 1.4,
         "vitamin": ["A", "B1", "B2", "B3", "B6", "C", "K"]
       },
-      "manfaat": "Kaya akan serat, vitamin C, vitamin K, dan antioksidan yang penting untuk sistem pencernaan, pertumbuhan sel janin, dan menjaga kesehatan kulit."
+      "manfaat": "Mengkonsumsi buah plum pada trimester ketiga kehamilan dapat memberikan nutrisi yang kaya akan serat, vitamin C, vitamin K, dan antioksidan yang penting untuk sistem pencernaan, pertumbuhan sel janin, dan menjaga kesehatan kulit.",
+      "trimester": 3
     }
   },
   "minuman": {
@@ -394,10 +411,10 @@
   },
   "ip": [
     {
-        "admin": "182.253.162.94"
+      "admin": "182.253.162.94"
     },
     {
-        "admin": "182.253.162.70"
+      "admin": "182.253.162.70"
     }
   ]
 }

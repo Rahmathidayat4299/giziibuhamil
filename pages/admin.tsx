@@ -16,7 +16,9 @@ const admin = (props: Props) => {
   const makan = useFetch('makanan/')
   const minum = useFetch('minuman/')
   const supp = useFetch('suplement/')
-  const [name, setName] = useState<any>()
+  const formMakan = Form('makanan/')
+  const formMinum = Form('minuman/')
+  const formSupp = Form('suplement/')
   const pass = useIpcheck()
   const route = useRouter()
 
@@ -25,26 +27,6 @@ const admin = (props: Props) => {
       // route.push('404')
     }
   }, [pass])
-  
-  const push = (e: SyntheticEvent) => {
-    e.preventDefault()
-    const id = nanoid(16)
-    set(ref(database, 'makanan/' + id), {
-      nama: name,
-      image: "",
-      gizi: {
-        kalori: 0,
-        karbohidrat: 0,
-        lemak: 0,
-        protein: 0,
-        serat: 0,
-        vitamin: ""
-      },
-      manfaat: ""
-    }).then(() => {
-      setName('')
-    }).catch(alert)
-  }
 
   return (
     <>
@@ -61,6 +43,7 @@ const admin = (props: Props) => {
 				)) : null
 			}
 		  </div>
+      {formMakan}
       <div>
 			{
 			  minum.length ? minum.map((item, id) => (
@@ -73,6 +56,7 @@ const admin = (props: Props) => {
 				)) : null
 			}
 		  </div>
+      {formMinum}
       <div>
 			{
 			  supp.length ? supp.map((item, id) => (
@@ -85,7 +69,7 @@ const admin = (props: Props) => {
 				)) : null
 			}
 		  </div>
-      <Form />
+      {formSupp}
     </>
   )
 }
