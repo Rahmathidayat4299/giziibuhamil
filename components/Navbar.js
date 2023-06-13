@@ -6,6 +6,13 @@ const Navbar = () => {
 
   const handleNavbarToggle = () => {
     setIsNavbarOpen(!isNavbarOpen);
+
+    // Menghentikan putaran setelah 3 detik
+    // if (!isNavbarOpen) {
+    //   setTimeout(() => {
+    //     setIsNavbarOpen(true);
+    //   }, 3000);
+    // }
   };
 
   return (
@@ -24,7 +31,9 @@ const Navbar = () => {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className={`inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ${
+            isNavbarOpen ? 'animate-spin duration-1000' : ''
+          }`}
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={handleNavbarToggle}
@@ -71,10 +80,10 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/register"
+                href="/CheckHealthyPregnantMother"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Register
+                CheckHealthyPregnantMother
               </a>
             </li>
             <li>
@@ -90,7 +99,7 @@ const Navbar = () => {
                 href="admin"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Admin
+                admin
               </a>
             </li>
           </ul>

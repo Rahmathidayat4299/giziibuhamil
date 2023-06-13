@@ -128,7 +128,6 @@ const Card = () => {
                       Setiap wanita di usia produktif disarankan untuk
                       mengonsumsi asam folat setidaknya 400 mcg perhari sebelum
                       dan selama kehamilan.
-=======
                       Setiap wanita di usia produktif disarankan untuk mengonsumsi asam folat setidaknya 400 mcg perhari sebelum dan selama kehamilan. 
                     </p>
                   </div>
