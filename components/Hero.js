@@ -7,12 +7,12 @@ const Hero = () => {
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4 lg:w-5/12 sm:flex sm:justify-center self-center">
             <div class="hero-content">
-              <h1 class="text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center sm:text-left">
+              <h1 class="text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center lg:text-left">
                 Ibu Hamil <br />
                 Sehat bahagia  <br />
                 
               </h1>
-              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center sm:text-left">
+              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
               Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk Kehamilan Bahagia
               </p>
               <ul class="flex flex-wrap items-center">
