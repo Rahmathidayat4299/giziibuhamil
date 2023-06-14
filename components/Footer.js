@@ -54,7 +54,7 @@ const Footer = () => {
           </a>
         </nav>
         <nav className="mt-12 flex w-full flex-col-reverse items-center justify-between space-y-4 space-y-reverse text-xs font-medium text-gray-500 sm:flex-row sm:space-y-0">
-          <p>© 2023, Gizi Ibu hamil. All Rights Reserved.</p>
+          <p>© 2023,Ibu hamil sehat. All Rights Reserved.</p>
           <p>
             <a href="#" className="hover:underline">
               Capstone project kampus merdeka

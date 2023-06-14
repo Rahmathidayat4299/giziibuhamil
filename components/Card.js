@@ -125,6 +125,9 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-gray-700 text-sm lg:text-base lg:leading-8 pr-4 tracking-wide mt-2"
                     >
+                      Setiap wanita di usia produktif disarankan untuk
+                      mengonsumsi asam folat setidaknya 400 mcg perhari sebelum
+                      dan selama kehamilan.
                       Setiap wanita di usia produktif disarankan untuk mengonsumsi asam folat setidaknya 400 mcg perhari sebelum dan selama kehamilan. 
                     </p>
                   </div>
@@ -142,7 +145,7 @@ const Card = () => {
                     src="https://akcdn.detik.net.id/api/wm/2018/02/21/d05f272c-2165-4fec-9236-d522fe608341_169.jpeg"
                     alt="notes"
                   />
-                  <div class="py-2 px-4 w-full flex justify-between bg-indigo-700">
+                  <div class="py-2 px-4 w-full flex justify-between bg-indigo-700 animate-bounce w-6 h-6 ...">
                     <p
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
@@ -165,13 +168,21 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-gray-700 text-sm lg:text-base lg:leading-8 pr-4 tracking-wide mt-2"
                     >
+
+                      salah satu fungsi utama kalsium adalah menjaga kesehatan
+                      tulang dan gigi manusia. Jadi, selama kehamilan, kalsium
+                      mendukung pertumbuhan tulang dan gigi janin serta
+                      mengoptimalkan perkembangan jantung, saraf, dan hatinya.
+                      Tak hanya itu, perkembangan jantung, proses pembekuan
+                      darah, serta peredaran darah pada janin juga tak lepas
+                      dari peran kalsium yang cukup dalam tubuh ibu.
                       salah satu fungsi utama kalsium adalah menjaga kesehatan tulang dan gigi manusia. Jadi, selama kehamilan, kalsium mendukung pertumbuhan tulang dan gigi janin serta mengoptimalkan perkembangan jantung, saraf, dan hatinya. Tak hanya itu, perkembangan jantung, proses pembekuan darah, serta peredaran darah pada janin juga tak lepas dari peran kalsium yang cukup dalam tubuh ibu.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+              <div class="mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 ">
                 <div
                   tabindex="0"
                   class="focus:outline-none "
@@ -242,7 +253,7 @@ const Card = () => {
                       Mei 2023
                     </p>
                   </div>
-                  <div class="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
+                  <div class="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)">
                     <h1
                       tabindex="0"
                       class="focus:outline-none  text-lg text-gray-900 font-semibold tracking-wider"

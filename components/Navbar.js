@@ -6,26 +6,34 @@ const Navbar = () => {
 
   const handleNavbarToggle = () => {
     setIsNavbarOpen(!isNavbarOpen);
+
+    // Menghentikan putaran setelah 3 detik
+    // if (!isNavbarOpen) {
+    //   setTimeout(() => {
+    //     setIsNavbarOpen(true);
+    //   }, 3000);
+    // }
   };
 
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="container flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="/"
           className="flex items-center"
         >
           <img
             src="https://raw.githubusercontent.com/nabati17/capstone_Img/main/img/pregnant.png"
-            className="h-14 w-14 mr-3"
+            className="h-8 mr-3"
             alt="Logo Gizi"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ibu Hamil</span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className={`inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ${
+            isNavbarOpen ? 'animate-spin duration-1000' : ''
+          }`}
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={handleNavbarToggle}
@@ -47,7 +55,9 @@ const Navbar = () => {
         </button>
 
         <div
-          className={`w-full md:block md:w-auto ${isNavbarOpen ? 'block' : 'hidden'}`}
+          className={`w-full md:block md:w-auto ${
+            isNavbarOpen ? 'block' : 'hidden'
+          }`}
           id="navbar-default"
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -62,10 +72,18 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/register"
+                href="/about"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Register
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="/CheckHealthyPregnantMother"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                CheckHealthyPregnantMother
               </a>
             </li>
             <li>
@@ -86,10 +104,10 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/about"
+                href="admin"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                About
+                admin
               </a>
             </li>
           </ul>
@@ -99,4 +117,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;
