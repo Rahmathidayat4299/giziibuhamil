@@ -24,7 +24,7 @@ const FaqCard = ({ question, answer }) => {
 const FAQMom = () => {
   return (
     <div className="max-w-xl mx-auto p-4">
-      <h2 className="text-2xl font-semibold mb-4">Pertanyaan Umum tentang Kehamilan</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-center">Pertanyaan Umum tentang Kehamilan</h2>
       <div>
         <FaqCard
           question="Berapa berat badan yang ideal untuk saya selama kehamilan?"
