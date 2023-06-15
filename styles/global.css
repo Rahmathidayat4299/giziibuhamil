@@ -8,25 +8,15 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
 }
-
 .shortened:hover {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: 0;
     -webkit-line-clamp: 0;
 }
-
-.arrow {
-  border: solid black;
-  border-width: 0 6px 6px 0;
-  display: inline-block;
-  padding: 6px;
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
 html {
     scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
 }
