@@ -147,7 +147,7 @@ const Card = () => {
                       biji-bijian utuh, kacang-kacangan, dan biji-bijian seperti
                       biji rami atau chia.
                     </p>
-                    <Read loc="kalsium"></Read>
+                    <Read loc="serat"></Read>
                   </div>
                 </div>
               </div>

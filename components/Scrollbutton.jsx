@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Image from './Image.tsx'
 
 const Scrollbutton = () => {
 	const clicked = () => {
@@ -11,8 +12,8 @@ const Scrollbutton = () => {
 	}, [])
   return (
     <>
-			<button className='scrolled fixed bottom-[5vw] right-[2vw]'>
-				<img src='../images/up-arrow.png' alt="Arrow Up" />
+			<button className='scrolled fixed bottom-[6vw] right-[2vw] rounded-full border-2 bg-slate-100'>
+				<Image/>
 			</button>
     </>
   )

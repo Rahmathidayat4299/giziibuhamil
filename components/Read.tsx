@@ -1,7 +1,7 @@
 import React, { useEffect }from 'react'
 
 type Props = {
-	loc: 'protein' | 'kalsium' | 'Asam' | 'Besi'
+	loc: 'protein' | 'kalsium' | 'Asam' | 'Besi' | 'serat'
 } 
 
 const Read = (props : Props) => {
