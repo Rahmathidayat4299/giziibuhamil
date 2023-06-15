@@ -1,5 +1,5 @@
 import React from "react";
-import Read from "./Read.jsx"
+import Read from "./Read.tsx"
 
 const Card = () => {
   return (
