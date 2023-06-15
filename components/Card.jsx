@@ -1,5 +1,5 @@
 import React, { useEffect} from "react";
-import Readmore from "./Readmore.jsx"
+import Readmore from "./Readmore"
 
 const Card = () => {
   return (
@@ -55,7 +55,7 @@ const Card = () => {
                   pertumbuhan dan perkembangan janin, serta memenuhi kebutuhan
                   tubuh ibu hamil yang meningkat selama masa kehamilan.
                 </p>
-                <Readmore className="rm protein"></Readmore>
+                <Readmore loc='protein'></Readmore>
                 <div class="h-5 w-2"></div>
               </div>
             </div>
@@ -102,7 +102,7 @@ const Card = () => {
                       dan selama kehamilan.
                       Setiap wanita di usia produktif disarankan untuk mengonsumsi asam folat setidaknya 400 mcg perhari sebelum dan selama kehamilan. 
                     </p>
-                    <Readmore className="rm"></Readmore>
+                    <Readmore loc="Asam"></Readmore>
                   </div>
                 </div>
                 <div
@@ -151,7 +151,7 @@ const Card = () => {
                       dari peran kalsium yang cukup dalam tubuh ibu.
                       salah satu fungsi utama kalsium adalah menjaga kesehatan tulang dan gigi manusia. Jadi, selama kehamilan, kalsium mendukung pertumbuhan tulang dan gigi janin serta mengoptimalkan perkembangan jantung, saraf, dan hatinya. Tak hanya itu, perkembangan jantung, proses pembekuan darah, serta peredaran darah pada janin juga tak lepas dari peran kalsium yang cukup dalam tubuh ibu.
                     </p>
-                    <Readmore className="rm protein"></Readmore>
+                    <Readmore loc="kalsium"></Readmore>
                   </div>
                 </div>
               </div>
@@ -198,7 +198,7 @@ const Card = () => {
                       meliputi daging merah, ayam, ikan, kacang-kacangan,
                       biji-bijian, dan sayuran berdaun hijau.
                     </p>
-                    <Readmore className="rm protein"></Readmore>
+                    <Readmore loc="Besi"></Readmore>
                   </div>
                 </div>
                 <div
@@ -244,7 +244,7 @@ const Card = () => {
                       diperkaya kalsium, seperti sari kedelai atau jus jeruk
                       yang diperkaya kalsium.
                     </p>{" "}
-                    <Readmore className="rm protein"></Readmore>
+                    <Readmore loc="kalsium"></Readmore>
                   </div>
                 </div>
               </div>

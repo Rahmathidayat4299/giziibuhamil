@@ -1,18 +1,17 @@
 import React, { useEffect }from 'react'
 
-const Readmore = (props) => {
-	useEffect(() => {
-		const clicked = document.querySelector('.rm')
-		clicked.addEventListener('click', (e) => {
-			e.forEach(btn => {
-				console.log('cek')
-			});
-		})
-	})
-  return (
-  <>
+type Props = {
+	loc: 'protein' | 'kalsium' | 'Asam' | 'Besi'
+} 
+
+const Readmore = (props : Props) => {
+	const open = () => {
+		window.location.href = `/nutrisi#${props.loc}`
+	}
+	return (
+	<>
 		<div className="w-full flex justify-end">
-			<button className={`focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer ${props.className}`}>
+			<button className={`focus:outline-nonez focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer`} onClick={() => open()}>
 				<span className=" text-base tracking-wide text-indigo-700">
 						Read more
 				</span>
@@ -41,7 +40,7 @@ const Readmore = (props) => {
 				</svg>
         	</button>
 		</div>
-  </>
+  	</>
   )
 }
 
