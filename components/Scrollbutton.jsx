@@ -12,8 +12,8 @@ const Scrollbutton = () => {
   return (
     <>
 			<button className='scrolled fixed bottom-[5vw] right-[2vw]'>
-				Up
-	 		</button>
+				<img src='../images/up-arrow.png' alt="Arrow Up" />
+			</button>
     </>
   )
 }
