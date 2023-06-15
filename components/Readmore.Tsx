@@ -7,6 +7,7 @@ type Props = {
 const Readmore = (props : Props) => {
 	const open = () => {
 		window.location.href = `/nutrisi#${props.loc}`
+		console.log('cek')
 	}
 	return (
 	<>
