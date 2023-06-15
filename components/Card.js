@@ -127,8 +127,9 @@ const Card = () => {
                     >
                       Setiap wanita di usia produktif disarankan untuk
                       mengonsumsi asam folat setidaknya 400 mcg perhari sebelum
-                      dan selama kehamilan.
-                      Setiap wanita di usia produktif disarankan untuk mengonsumsi asam folat setidaknya 400 mcg perhari sebelum dan selama kehamilan. 
+                      dan selama kehamilan. Setiap wanita di usia produktif
+                      disarankan untuk mengonsumsi asam folat setidaknya 400 mcg
+                      perhari sebelum dan selama kehamilan.
                     </p>
                   </div>
                 </div>
@@ -150,7 +151,7 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
                     >
-                      Kalsium
+                      Serat
                     </p>
                     <p
                       tabindex="0"
@@ -168,15 +169,11 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-gray-700 text-sm lg:text-base lg:leading-8 pr-4 tracking-wide mt-2"
                     >
-
-                      salah satu fungsi utama kalsium adalah menjaga kesehatan
-                      tulang dan gigi manusia. Jadi, selama kehamilan, kalsium
-                      mendukung pertumbuhan tulang dan gigi janin serta
-                      mengoptimalkan perkembangan jantung, saraf, dan hatinya.
-                      Tak hanya itu, perkembangan jantung, proses pembekuan
-                      darah, serta peredaran darah pada janin juga tak lepas
-                      dari peran kalsium yang cukup dalam tubuh ibu.
-                      salah satu fungsi utama kalsium adalah menjaga kesehatan tulang dan gigi manusia. Jadi, selama kehamilan, kalsium mendukung pertumbuhan tulang dan gigi janin serta mengoptimalkan perkembangan jantung, saraf, dan hatinya. Tak hanya itu, perkembangan jantung, proses pembekuan darah, serta peredaran darah pada janin juga tak lepas dari peran kalsium yang cukup dalam tubuh ibu.
+                      Serat membantu menjaga pencernaan yang sehat dan mencegah
+                      sembelit, yang sering dialami oleh ibu hamil. Makanan
+                      tinggi serat meliputi buah-buahan segar, sayuran,
+                      biji-bijian utuh, kacang-kacangan, dan biji-bijian seperti
+                      biji rami atau chia.
                     </p>
                   </div>
                 </div>
