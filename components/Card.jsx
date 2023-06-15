@@ -1,5 +1,5 @@
-import React, { useEffect} from "react";
-import Readmore from "./Readmore"
+import React from "react";
+import Readmore from "./Readmore.tsx"
 
 const Card = () => {
   return (
