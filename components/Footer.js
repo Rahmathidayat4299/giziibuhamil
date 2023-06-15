@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center px-4 py-12 sm:items-start">
-        <nav className="mt-6 flex items-center space-x-3">
+        <nav className="mt-6 items-center space-x-3 hidden">
           <a
             href="#"
             className="rounded-lg bg-gray-100 p-1 text-gray-500 transition hover:bg-gray-200"
