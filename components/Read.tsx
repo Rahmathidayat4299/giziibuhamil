@@ -4,7 +4,7 @@ type Props = {
 	loc: 'protein' | 'kalsium' | 'Asam' | 'Besi'
 } 
 
-const Readmore = (props : Props) => {
+const Read = (props : Props) => {
 	const open = () => {
 		window.location.href = `/nutrisi#${props.loc}`
 		console.log('cek')
@@ -45,4 +45,4 @@ const Readmore = (props : Props) => {
   )
 }
 
-export default Readmore
+export default Read
