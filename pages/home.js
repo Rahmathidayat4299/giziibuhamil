@@ -3,8 +3,9 @@ import "../components/index.js";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
-import Card from "../components/Card";
+import Card from "../components/Card.jsx";
 import Hero from "../components/Hero";
+import Scrollbutton from "../components/Scrollbutton.jsx";
 
 class Home extends Component {
   render() {
@@ -25,7 +26,7 @@ class Home extends Component {
           </p>
         </div>
         <Card />
-
+        <Scrollbutton />
         <Footer />
       </div>
     );
