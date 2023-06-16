@@ -1,25 +1,26 @@
 import React from "react";
+import 'lazysizes'
 
 const Hero = () => {
   return (
-    <div class="relative bg-white pt-[120px] pb-[110px] lg:pt-[150px]">
-      <div class="container mx-auto">
-        <div class="-mx-4 flex flex-wrap">
-          <div class="w-full px-4 lg:w-5/12 sm:flex sm:justify-center self-center">
-            <div class="hero-content">
-              <h1 class="text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center lg:text-left">
+    <div className="relative bg-white pt-[120px] pb-[110px] lg:pt-[150px]">
+      <div className="container mx-auto">
+        <div className="-mx-4 flex flex-wrap">
+          <div className="w-full px-4 lg:w-5/12 sm:flex sm:justify-center self-center">
+            <div className="hero-content">
+              <h1 className="text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center lg:text-left">
                 Ibu Hamil <br />
                 Sehat bahagia  <br />
                 
               </h1>
-              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
+              <p className="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
               Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk Kehamilan Bahagia
               </p>
-              <ul class="flex flex-wrap items-center">
+              <ul className="flex flex-wrap items-center">
                 <li>
                   {/* <a
                     href="javascript:void(0)"
-                    class="bg-primary inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
+                    className="bg-primary inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
                   >
                     Get Started
                   </a> */}
@@ -29,16 +30,17 @@ const Hero = () => {
               {}
             </div>
           </div>
-          <div class="hidden px-4 lg:block lg:w-1/12"></div>
-          <div class="w-full px-4 lg:w-6/12">
-            <div class="lg:ml-auto lg:text-right sm:flex sm:justify-center ">
-              <div class="relative z-10 inline-block pt-11 lg:pt-0">
+          <div className="hidden px-4 lg:block lg:w-1/12"></div>
+          <div className="w-full px-4 lg:w-6/12">
+            <div className="lg:ml-auto lg:text-right sm:flex sm:justify-center ">
+              <div className="relative z-10 inline-block pt-11 lg:pt-0">
                 <img
-                  src="https://i.pinimg.com/564x/5d/a1/cb/5da1cb8daa16aea6a81ce2f5349fde9a.jpg"
+                  src="../images/noimg.jpg"
+                  data-src="https://i.pinimg.com/564x/5d/a1/cb/5da1cb8daa16aea6a81ce2f5349fde9a.jpg"
                   alt="hero"
-                  class="sm:w-full w-[100vw] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                  className="sm:w-full w-[100vw] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 lazyload ..."
                 />
-                <span class="absolute -left-8 -bottom-8 z-[-1]">
+                <span className="absolute -left-8 -bottom-8 z-[-1]">
                   <svg
                     width="93"
                     height="93"

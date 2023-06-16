@@ -1,3 +1,4 @@
+import 'lazysizes'
 import React from 'react'
 import useFetch from './Fetch'
 import Delete from './Delete'
@@ -13,17 +14,16 @@ const NutCard = (props: Props) => {
 	return (
 		<>
 			<div className='px-4 py-2'>
-				<div className='border-2 rounded-[25px] p-5 bg-fuchsia-300 '>
-					<p className='text-center'>
+				<div className='border-2 rounded-[25px] p-5 bg-fuchsia-200 '>
+					<p className='text-5xl border-b-2 border-slate-800 w-fit m-auto'>
 						{props.children}
 					</p>
-					<div className={`grid grid-flow-col overflow-x-auto auto-cols-[100%] sm:auto-cols-[50%] md:auto-cols-[33%]  lg:auto-cols-[25%] snap-x snap-mandatory gap-5 $
-							{props.classname}`}>
+					<div className={`grid grid-flow-col overflow-x-auto auto-cols-[100%] sm:auto-cols-[50%] md:auto-cols-[33%]  lg:auto-cols-[25%] snap-x snap-mandatory gap-5 ${props.classname}`}>
 							{
 								makan.length ? makan.map((item, id) => (
 									<>
 										<div className="flex flex-col my-4 snap-center scroll-p-[5px] border-2 rounded-[25px] bg-pink-300">
-											<img className='rounded-t-[25px]' src={item.image} alt={item.nama} />
+											<img className='rounded-t-[25px] h-[225px] object-cover lazyload' src='../images/noimg.jpg' data-src={item.image} alt={item.nama} />
 											<div>
 												<p className='p-5' key={id}>{`${item.nama}`}</p>
 												<p className='mx-5 shortened'>{item.manfaat}</p>
