@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Scrollbutton from "../components/Scrollbutton.jsx";
 
 const Senam = ({ videos }) => {
   return (
@@ -30,6 +31,7 @@ const Senam = ({ videos }) => {
           ))}
         </div>
       </div>
+      <Scrollbutton />
       <Footer />
     </div>
   );

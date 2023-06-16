@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/home": "pages/home.js",
-  "/CheckHealthyPregnantMother": "pages/CheckHealthyPregnantMother.js",
-  "/about": "pages/about.js",
-  "/senam": "pages/senam.js"
+  "/CheckHealthyPregnantMother": "pages/CheckHealthyPregnantMother.js"
 }
