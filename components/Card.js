@@ -37,9 +37,7 @@ const Card = () => {
                 <p
                   tabindex="0"
                   class="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                >
-                  Mei 2023
-                </p>
+                ></p>
               </div>
               <div class="bg-white px-10 py-6 rounded-bl-3xl rounded-br-3xl">
                 <h1
@@ -112,9 +110,7 @@ const Card = () => {
                     <p
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
-                    </p>
+                    ></p>
                   </div>
                   <div class="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
                     <h1
@@ -156,9 +152,7 @@ const Card = () => {
                     <p
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
-                    </p>
+                    ></p>
                   </div>
                   <div class="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
                     <h1
@@ -203,9 +197,7 @@ const Card = () => {
                     <p
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
-                    </p>
+                    ></p>
                   </div>
                   <div class="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
                     <h1
@@ -246,9 +238,7 @@ const Card = () => {
                     <p
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
-                    </p>
+                    ></p>
                   </div>
                   <div class="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)">
                     <h1
