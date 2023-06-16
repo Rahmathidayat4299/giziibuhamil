@@ -10,21 +10,14 @@ const Hero = () => {
             <div className="hero-content">
               <h1 className="text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center lg:text-left">
                 Ibu Hamil <br />
-                Sehat bahagia  <br />
-                
+                Sehat bahagia <br />
               </h1>
-              <p className="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
-              Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk Kehamilan Bahagia
+              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
+                Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk
+                Kehamilan Bahagia
               </p>
-              <ul className="flex flex-wrap items-center">
-                <li>
-                  {/* <a
-                    href="javascript:void(0)"
-                    className="bg-primary inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
-                  >
-                    Get Started
-                  </a> */}
-                </li>
+              <ul class="flex flex-wrap items-center">
+                <li></li>
                 {}
               </ul>
               {}

@@ -57,7 +57,7 @@ const Footer = () => {
           <p>© 2023,Ibu hamil sehat. All Rights Reserved.</p>
           <p>
             <a href="#" className="hover:underline">
-              Capstone project kampus merdeka
+              Capstone Project Kampus Merdeka
             </a>{" "}
             ·
             <a href="#" className="hover:underline">

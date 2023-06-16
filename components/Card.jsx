@@ -36,12 +36,6 @@ const Card = () => {
                 >
                   Protein
                 </p>
-                <p
-                  tabindex="0"
-                  className="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                >
-                  Mei 2023
-                </p>
               </div>
               <div className="bg-white p-10 rounded-bl-3xl rounded-br-3xl">
                 <h1
@@ -83,12 +77,6 @@ const Card = () => {
                     >
                       Asam folat
                     </p>
-                    <p
-                      tabindex="0"
-                      className="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
-                    </p>
                   </div>
                   <div className="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
                     <h1
@@ -127,12 +115,6 @@ const Card = () => {
                       className="focus:outline-none text-sm text-white font-semibold tracking-wide"
                     >
                       Serat
-                    </p>
-                    <p
-                      tabindex="0"
-                      className="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
                     </p>
                   </div>
                   <div className="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
@@ -177,12 +159,6 @@ const Card = () => {
                     >
                       Zat Besi
                     </p>
-                    <p
-                      tabindex="0"
-                      className="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
-                    </p>
                   </div>
                   <div className="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
                     <h1
@@ -221,12 +197,6 @@ const Card = () => {
                       className="focus:outline-none text-sm text-white font-semibold tracking-wide"
                     >
                       Kalsium
-                    </p>
-                    <p
-                      tabindex="0"
-                      className="focus:outline-none text-sm text-white font-semibold tracking-wide"
-                    >
-                      Mei 2023
                     </p>
                   </div>
                   <div className="bg-white px-3 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)">
