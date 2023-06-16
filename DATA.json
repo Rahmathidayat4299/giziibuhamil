@@ -318,7 +318,7 @@
         "serat": null,
         "vitamin": []
       },
-      "manfaat_ibu_hamil": "Membantu menjaga keseimbangan cairan tubuh dan memenuhi kebutuhan hidrasi selama kehamilan."
+      "manfaat": "Membantu menjaga keseimbangan cairan tubuh dan memenuhi kebutuhan hidrasi selama kehamilan."
     },
     "h3piMITz3LtfzkWs": {
       "id": "h3piMITz3LtfzkWs",
@@ -332,7 +332,7 @@
         "serat": null,
         "vitamin": ["A", "B2", "B12", "D"]
       },
-      "manfaat_ibu_hamil": "Sumber kalsium yang baik untuk perkembangan tulang dan gigi janin, serta sumber protein penting untuk pertumbuhan dan perkembangan janin."
+      "manfaat": "Sumber kalsium yang baik untuk perkembangan tulang dan gigi janin, serta sumber protein penting untuk pertumbuhan dan perkembangan janin."
     },
     "kJABPgc61ffb8Uoa": {
       "id": "kJABPgc61ffb8Uoa",
@@ -346,7 +346,7 @@
         "serat": null,
         "vitamin": ["C"]
       },
-      "manfaat_ibu_hamil": "Memberikan hidrasi yang baik, mengandung elektrolit alami, dan membantu mengatasi kelelahan selama kehamilan."
+      "manfaat": "Memberikan hidrasi yang baik, mengandung elektrolit alami, dan membantu mengatasi kelelahan selama kehamilan."
     },
     "GewZ2ZyAix90P31r": {
       "id": "GewZ2ZyAix90P31r",
@@ -360,7 +360,7 @@
         "serat": null,
         "vitamin": ["Varies"]
       },
-      "manfaat_ibu_hamil": "Menyediakan sumber vitamin dan mineral penting, serta serat, yang diperlukan selama kehamilan untuk kesehatan ibu dan perkembangan janin."
+      "manfaat": "Menyediakan sumber vitamin dan mineral penting, serta serat, yang diperlukan selama kehamilan untuk kesehatan ibu dan perkembangan janin."
     },
     "Oy3HTlGNwd4PtvBK": {
       "id": "Oy3HTlGNwd4PtvBK",
@@ -374,7 +374,7 @@
         "serat": null,
         "vitamin": ["varies"]
       },
-      "manfaat_ibu_hamil": "Mengandung nutrisi penting dari sayuran yang dapat mendukung kesehatan ibu hamil dan perkembangan janin, serta membantu menjaga kestabilan sistem pencernaan."
+      "manfaat": "Mengandung nutrisi penting dari sayuran yang dapat mendukung kesehatan ibu hamil dan perkembangan janin, serta membantu menjaga kestabilan sistem pencernaan."
     }
   },
   "suplement": {

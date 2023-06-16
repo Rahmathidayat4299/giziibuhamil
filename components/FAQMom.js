@@ -31,7 +31,6 @@ const FAQMom = () => {
   useEffect(() => {
 		fetching()
 	}, [])
-  console.log(open)
   
   return (
     <div className="max-w-xl mx-auto p-4">
