@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="lg:ml-auto lg:text-right sm:flex sm:justify-center ">
               <div className="relative z-10 inline-block pt-11 lg:pt-0">
                 <img
-                  src="../images/noimg.jpg"
+                  src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                   data-src="https://i.pinimg.com/564x/5d/a1/cb/5da1cb8daa16aea6a81ce2f5349fde9a.jpg"
                   alt="hero"
                   className="sm:w-full w-[100vw] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 lazyload ..."

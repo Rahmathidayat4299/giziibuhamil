@@ -23,7 +23,7 @@ const NutCard = (props: Props) => {
 								makan.length ? makan.map((item, id) => (
 									<>
 										<div className="flex flex-col my-4 snap-center scroll-p-[5px] border-2 rounded-[25px] bg-pink-300">
-											<img className='rounded-t-[25px] h-[225px] object-cover lazyload' src='../images/noimg.jpg' data-src={item.image} alt={item.nama} />
+											<img className='rounded-t-[25px] h-[225px] object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src={item.image} alt={item.nama} />
 											<div>
 												<p className='p-5' key={id}>{`${item.nama}`}</p>
 												<p className='mx-5 shortened'>{item.manfaat}</p>

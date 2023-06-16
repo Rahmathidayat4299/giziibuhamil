@@ -1,6 +1,5 @@
 import React from "react";
 import Read from "./Read.tsx"
-import noimg from 'images/noimg.jpg'
 
 const Card = () => {
   return (
@@ -26,7 +25,7 @@ const Card = () => {
                 aria-label="Protein"
                 tabindex="0"
                 className="focus:outline-none w-full lazyload"
-                src={noimg}
+                src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                 data-src="https://img-cdn.medkomtek.com/EG3sC0C9MRBWHtqa5JGMcGlacbU=/730x411/smart/filters:quality(75):strip_icc():format(webp)/article/Zwz4UOZdegu11h5FU0QEU/original/019404800_1640158129-Rekomendasi-Makanan-Tinggi-Protein-untuk-Ibu-Hamil.jpg"
                 alt="code editor"
               />
@@ -44,14 +43,14 @@ const Card = () => {
                   Mei 2023
                 </p>
               </div>
-              <div className="bg-white px-10 py-6 rounded-bl-3xl rounded-br-3xl">
+              <div className="bg-white p-10 rounded-bl-3xl rounded-br-3xl">
                 <h1
                   tabindex="0"
                   className="focus:outline-none text-4xl text-gray-900 font-semibold tracking-wider"
                 ></h1>
                 <p
                   tabindex="0"
-                  className="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12 shortened"
+                  className="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide shortened"
                 >
                   Protein penting bagi ibu hamil karena berperan dalam
                   pertumbuhan dan perkembangan janin, serta memenuhi kebutuhan
@@ -73,7 +72,7 @@ const Card = () => {
                     role="img"
                     aria-label="gaming"
                     className="focus:outline-none w-full lazyload"
-                    src={noimg}
+                    src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                     data-src="https://www.astronauts.id/blog/wp-content/uploads/2022/12/Ini-Makanan-yang-Mengandung-Asam-Folat-yang-Baik-Untuk-Tubuh--1024x683.jpg"
                     alt="AsamFolat"
                   />
@@ -118,7 +117,7 @@ const Card = () => {
                     role="img"
                     aria-label="gaming"
                     className="focus:outline-none w-full lazyload"
-                    src={noimg}
+                    src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                     data-src="https://static.honestdocs.id/989x500/system/blog_articles/main_hero_images/000/001/313/original/25_Jenis_Makanan_Berserat_Tinggi_Yang_Menyehatkan.jpg"
                     alt="Serat"
                   />
@@ -167,7 +166,7 @@ const Card = () => {
                     role="img"
                     aria-label="laptop"
                     className="focus:outline-none w-full lazyload"
-                    src={noimg}
+                    src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                     data-src="https://dekannews.com/berita/17521berita.jpeg"
                     alt="ZatBesi"
                   />
@@ -212,7 +211,7 @@ const Card = () => {
                     role="img"
                     aria-label="worker"
                     className="focus:outline-none w-full lazyload"
-                    src={noimg}
+                    src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                     data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp5ikX-5GweSPYhgKMAbRGEIpmNmbCfZiOUg&usqp=CAU"
                     alt="Kalsium"
                   />
