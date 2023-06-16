@@ -2,15 +2,17 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Scrollbutton from "../components/Scrollbutton.jsx";
+import Nutrisi from '../components/Nutrisi';
 
-type Props = {}
-
-const nutrisi = (props: Props) => {
+const nutrisi = () => {
   return (
     <>
+    <div className=''>
       <Navbar />
+      <Nutrisi />
       <Scrollbutton />
-      <Footer />
+    </div>
+    <Footer />
     </>
   )
 }
