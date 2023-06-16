@@ -49,7 +49,7 @@ const Card = () => {
                 ></h1>
                 <p
                   tabindex="0"
-                  class="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12"
+                  class="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12 shortened"
                 >
                   Protein penting bagi ibu hamil karena berperan dalam
                   pertumbuhan dan perkembangan janin, serta memenuhi kebutuhan
@@ -115,7 +115,7 @@ const Card = () => {
                     role="img"
                     aria-label="gaming"
                     class="focus:outline-none w-full"
-                    src="https://akcdn.detik.net.id/api/wm/2018/02/21/d05f272c-2165-4fec-9236-d522fe608341_169.jpeg"
+                    src="https://static.honestdocs.id/989x500/system/blog_articles/main_hero_images/000/001/313/original/25_Jenis_Makanan_Berserat_Tinggi_Yang_Menyehatkan.jpg"
                     alt="notes"
                   />
                   <div class="py-2 px-4 w-full flex justify-between bg-indigo-700">
@@ -123,7 +123,7 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-sm text-white font-semibold tracking-wide"
                     >
-                      Kalsium
+                      Serat
                     </p>
                     <p
                       tabindex="0"
@@ -141,17 +141,13 @@ const Card = () => {
                       tabindex="0"
                       class="focus:outline-none text-gray-700 text-sm lg:text-base lg:leading-8 pr-4 tracking-wide mt-2 shortened"
                     >
-
-                      salah satu fungsi utama kalsium adalah menjaga kesehatan
-                      tulang dan gigi manusia. Jadi, selama kehamilan, kalsium
-                      mendukung pertumbuhan tulang dan gigi janin serta
-                      mengoptimalkan perkembangan jantung, saraf, dan hatinya.
-                      Tak hanya itu, perkembangan jantung, proses pembekuan
-                      darah, serta peredaran darah pada janin juga tak lepas
-                      dari peran kalsium yang cukup dalam tubuh ibu.
-                      salah satu fungsi utama kalsium adalah menjaga kesehatan tulang dan gigi manusia. Jadi, selama kehamilan, kalsium mendukung pertumbuhan tulang dan gigi janin serta mengoptimalkan perkembangan jantung, saraf, dan hatinya. Tak hanya itu, perkembangan jantung, proses pembekuan darah, serta peredaran darah pada janin juga tak lepas dari peran kalsium yang cukup dalam tubuh ibu.
+                      Serat membantu menjaga pencernaan yang sehat dan mencegah
+                      sembelit, yang sering dialami oleh ibu hamil. Makanan
+                      tinggi serat meliputi buah-buahan segar, sayuran,
+                      biji-bijian utuh, kacang-kacangan, dan biji-bijian seperti
+                      biji rami atau chia.
                     </p>
-                    <Read loc="kalsium"></Read>
+                    <Read loc="serat"></Read>
                   </div>
                 </div>
               </div>

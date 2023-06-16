@@ -8,10 +8,9 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
 }
-
-.shortened:hover {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: 0;
-    -webkit-line-clamp: 0;
+html {
+    scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
 }

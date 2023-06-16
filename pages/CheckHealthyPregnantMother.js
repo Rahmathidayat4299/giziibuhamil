@@ -3,6 +3,7 @@ import PregnancyCalculator from '../components/PregnancyCalculator';
 import Footer from '../components/Footer';
 import FAQMom from '../components/FAQMom';
 import PregnancyWeightGainCalculator from '../components/PregnancyWeightGainCalculator';
+import Scrollbutton from "../components/Scrollbutton.jsx";
 
 const CustomCard = ({ title, description, children }) => {
   return (
@@ -40,7 +41,7 @@ const CheckHealthyPregnantMother = () => {
         <h2 className="text-2xl font-bold mb-4 text-center">FAQ for Moms</h2>
         <FAQMom />
       </div>
-
+      <Scrollbutton />
       <Footer />
     </div>
   );
