@@ -48,16 +48,13 @@ const Nutrisi = () => {
   return (
 		<>
 			<NutCard width="" data='makanan/' classname='auto-cols-[100%] sm:auto-cols-[50%] md:auto-cols-[33%]  lg:auto-cols-[25%]'>Makanan</NutCard>
-			<div className='flex bg-slate-200'>
+			<div className='flex bg-slate-200 h-[50%]'>
 				<img className='max-w-[40%] p-5 hidden lg:block object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src="https://1.bp.blogspot.com/-V8GKAf0VIG0/XEA7S5lJEOI/AAAAAAAARoU/4jLDZL0hyO8TkzbDKO-pL4lOvJjDLWUiwCLcBGAs/s1600/Vector%2BOrang%2BHamil.png" alt="PregnantWoman" />
-				<NutCard width="w-[100%] lg:w-[60%]" data='minuman/' classname='auto-cols-[100%] lg:auto-cols-[50%]'>Minuman</NutCard>
+				<NutCard width="w-[100%] lg:w-[60%] m-auto" data='minuman/' classname='auto-cols-[100%] lg:auto-cols-[50%]'>Minuman</NutCard>
 			</div>
 			<div className='flex'>
-				<NutCard width="w-[100%] lg:w-[60%]" data='suplement/' classname='auto-cols-[100%] lg:auto-cols-[50%]'>Suplement</NutCard>
-				<img className='max-w-[40%] p-5 hidden lg:block object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src="https://png.pngtree.com/png-clipart/20210314/original/pngtree-mother-s-day-mom-pregnant-with-love-png-image_6100876.png" alt="PregnantWoman" />
-			</div>
-			<div className='w-[100%]'>
-				<p>cek</p>
+				<NutCard width="w-[100%] lg:w-[60%] m-auto" data='suplement/' classname='auto-cols-[100%] lg:auto-cols-[50%]'>Suplement</NutCard>
+				<img className='max-w-[40%] mx-auto p-5 hidden lg:block object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src="https://png.pngtree.com/png-clipart/20210314/original/pngtree-mother-s-day-mom-pregnant-with-love-png-image_6100876.png" alt="PregnantWoman" />
 			</div>
 		</>
   )
