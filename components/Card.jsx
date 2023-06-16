@@ -49,7 +49,7 @@ const Card = () => {
                 ></h1>
                 <p
                   tabindex="0"
-                  class="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12"
+                  class="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12 shortened"
                 >
                   Protein penting bagi ibu hamil karena berperan dalam
                   pertumbuhan dan perkembangan janin, serta memenuhi kebutuhan

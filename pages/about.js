@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../components/index";
+import Scrollbutton from "../components/Scrollbutton.jsx";
 
 const About = () => {
   return (
@@ -42,6 +43,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Scrollbutton/>
       <Footer />
     </div>
   );
