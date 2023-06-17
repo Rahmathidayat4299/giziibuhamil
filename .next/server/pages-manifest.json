@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/home": "pages/home.js"
+  "/home": "pages/home.js",
+  "/nutrisi": "pages/nutrisi.js",
+  "/senam": "pages/senam.js"
 }
