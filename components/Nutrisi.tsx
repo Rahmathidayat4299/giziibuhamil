@@ -52,8 +52,41 @@ const NutCard = (props: Props) => {
 			</div>
 		</>
 	)
-
 }
+
+const NutSuppCard = (props: Props) => {
+	const alltype = useFetch(props.data)
+	return (
+		<>
+			<div className={`px-4 py-2 ${props.width}`}>
+				<div className='border-2 rounded-[25px] p-5 bg-fuchsia-200 '>
+					<p className='text-5xl underline text-center'>
+						{props.children}
+					</p>
+					<div className={`grid grid-flow-col overflow-x-auto snap-x snap-mandatory gap-5 ${props.classname}`}>
+							{
+								alltype.length ? alltype.map((item, id) => (
+									<>
+										<div className="flex flex-col my-4 snap-center scroll-p-[5px] border-2 rounded-[25px] bg-pink-300">
+											<img className='rounded-t-[25px] h-[225px] object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src={item.image} alt={item.nama} />
+											<div>
+												<div className='bg-indigo-600 px-5 py-2 flex flex-row justify-between'>
+													<p className='text-white' key={id}>{`${item.nama}`}</p>
+													<p className='text-white'>{props.trimester}{item.trimester}</p>
+												</div>
+												<p className='m-5'>{item.manfaat}</p>
+											</div>
+										</div>
+									</>
+								)) : null
+							}
+					</div>
+				</div>
+			</div>
+		</>
+	)
+}
+
 const Nutrisi = () => {
   return (
 		<>
@@ -84,7 +117,7 @@ const Nutrisi = () => {
 				<NutCard width="w-[100%] lg:w-[60%] m-auto" data='minuman/' classname='auto-cols-[100%] md:auto-cols-[50%]'>Minuman</NutCard>
 			</div>
 			<div className='flex'>
-				<NutCard width="w-[100%] lg:w-[60%] m-auto" data='suplement/' classname='auto-cols-[100%] md:auto-cols-[50%]'>Suplement</NutCard>
+				<NutSuppCard width="w-[100%] lg:w-[60%] m-auto" data='suplement/' classname='auto-cols-[100%] md:auto-cols-[50%]'>Suplement</NutSuppCard>
 				<img className='max-w-[40%] mx-auto p-5 hidden lg:block object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src="https://raw.githubusercontent.com/nabati17/DATAC/main/mother/MothersDay.png" alt="PregnantWoman" />
 			</div>
 		</>
