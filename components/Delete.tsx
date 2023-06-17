@@ -1,7 +1,6 @@
 import { ref, remove } from 'firebase/database'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { database } from '../config/config'
-import { useFetch } from './Fetch'
 
 type Props = {
   itemId: string
