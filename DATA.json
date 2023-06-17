@@ -220,11 +220,7 @@
         "protein": 1.6,
         "lemak": 0.1,
         "serat": 3,
-        "vitamin": {
-          "A": 192,
-          "C": 33,
-          "B6": 0.2
-        }
+        "vitamin": ["A","C","B6"]
       },
       "manfaat": "Mengkonsumsi kentang bagi ibu hamil di trimester 3 dapat memberikan asupan serat,kaya akan vitamin, serat, dan karotenoid yang baik untuk perkembangan sistem imun janin dan menjaga kesehatan mata.",
       "trimester": 3
@@ -381,7 +377,7 @@
     "a20LcEGN84DdsOKf": {
       "id": "a20LcEGN84DdsOKf",
       "nama": "Blackmores Pregnancy & Breast-Feeding Gold",
-      "image": "https://raw.githubusercontent.com/nabati17/capstone_Img/main/imgsuplement/Blackmores_Pregnancy_Breast_Feeding_Gold.jpg",
+      "image": "https://raw.githubusercontent.com/nabati17/capstone_Img/main/imgsuplement/blackmores_Pregnancy.jpg",
       "manfaat": "Sebagai pemenuhan nutrisi selama kehamilan dan menyusui, serta menjaga kualitas ASI. Kandungan DHA dan kalsium yang cukup tinggi di dalam suplemen ini dapat meningkatkan perkembangan otak dan mata pada janin dan baik untuk menjaga kesehatan tulang ibu serta pertumbuhan tulang dan gigi janin."
     },
     "l6h7VdMGi6qXQXcG": {
