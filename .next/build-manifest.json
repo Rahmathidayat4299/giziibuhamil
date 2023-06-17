@@ -22,17 +22,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-<<<<<<< HEAD
-    "/nutrisi": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/nutrisi.js"
-=======
-    "/home": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/home.js"
->>>>>>> 05f961abd41b5ab00bdc586c1b0fa8351e9fdae8
+      "static/chunks/pages/about.js"
     ]
   },
   "ampFirstPages": []
