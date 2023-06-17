@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-type Props = {}
+type state = {
+	id: string
+	nama: string
+	manfaat: string
+	image: string
+	gizi: {
+		kalori: string
+		karbohidrat: string
+		lemak: string
+		protein: string
+		serat: string
+		vitamin: string[]
+	},
+	trimester: string
+}
 
-const Modal = (props: Props) => {
+const Modal = (data: any[]) => {
   return (
-    <div>Modal</div>
+    console.log(data[1])
   )
 }
 

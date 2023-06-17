@@ -1,9 +1,9 @@
-import { get, onValue, orderByChild, orderByValue, query, ref} from 'firebase/database'
+import { onValue, ref} from 'firebase/database'
 import { database } from '../config/config.js'
 import { useEffect, useState } from 'react'
 
 type state = {
-	id: string;
+	id: string
 	nama: string
 	manfaat: string
 	image: string
@@ -18,9 +18,8 @@ type state = {
 	trimester: string
 }
 
-const useFetch = (data: string) => {
+export const useFetch = (data: 'makanan/' | 'minuman/' | 'suplement/') => {
 	const dbref = ref(database, data)
-	const q = query(ref(database, 'makanan/'), orderByValue())
 	const [Data, setData] = useState<state[]>([])
 
 	const fetching = () => {
@@ -35,23 +34,26 @@ const useFetch = (data: string) => {
 		})
 	}
 
-	const orderBy = () => {
-		onValue(q, e => {
-			get(q)
-			.then((data) => {
-				// console.log(data)
-				const datad = data.val()
-			})
-			.catch((err) => { console.log(err) })
-		})
-	} 
-
 	useEffect(() => {
 		fetching()
-		orderBy()
 	}, [])
 	return Data
 }
 
+export const useFetchId = (data: string) => {
+	const dbref = ref(database, data)
+	const [Data, setData] = useState([])
+	
+	const fetching = () => {
+		onValue(dbref, (e) => {
+			const arrayFetch = Object.values(e.val())
+				// .map(key => {return e.val()[key]}) as state[]
+			setData(arrayFetch)
+		})
+	}
 
-export default useFetch
+	useEffect(() => {
+		fetching()
+	}, [])
+	return Data
+}

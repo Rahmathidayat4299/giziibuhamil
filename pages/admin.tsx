@@ -1,13 +1,9 @@
 import { useRouter } from "next/router"
 import Navbar from "../components/Navbar.js"
 import useIpcheck from "../components/Ipcheck"
-import { SyntheticEvent, useEffect, useState } from 'react'
-import useFetch from "../components/Fetch"
-import Button from '../components/Button.js'
+import { useEffect } from 'react'
+import { useFetch } from "../components/Fetch"
 import Delete from "../components/Delete"
-import { database } from "../config/config"
-import { ref, set } from "firebase/database"
-import { nanoid } from "nanoid"
 import Form from "../components/Form"
 
 type Props = {}
@@ -24,7 +20,7 @@ const admin = (props: Props) => {
 
   useEffect(() => {
     if (!pass){
-      route.push('404')
+      route.push('404').catch(() => console.log(''))
     }
   }, [pass])
 

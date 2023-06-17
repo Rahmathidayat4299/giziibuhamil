@@ -1,9 +1,7 @@
 import 'lazysizes'
 import React from 'react'
-import useFetch from './Fetch'
-import Delete from './Delete'
+import { useFetch } from './Fetch'
 import Button from './Button'
-import 'lazysizes'
 
 type Props = {
 	children: string
@@ -30,7 +28,7 @@ const NutCard = (props: Props) => {
 												<p className='px-5 py-3 bg-indigo-600 text-white' key={id}>{`${item.nama}`}</p>
 												<p className='m-5 shortened'>{item.manfaat}</p>
 												<div className='flex flex-row-reverse p-5'>
-													<Button data={`${item.id}`} className="py-3 px-5  bg-slate-200 hover:bg-slate-500 hover:text-white rounded-[25px]">More Detail...</Button>
+													<Button typeFetch={`${props.data}`} data={`${item.id}`} className="py-3 px-5  bg-slate-200 hover:bg-slate-500 hover:text-white rounded-[25px]">More Detail...</Button>
 												</div>
 											</div>
 										</div>
