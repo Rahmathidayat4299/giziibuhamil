@@ -33,7 +33,7 @@ const FAQMom = () => {
 	}, [])
   
   return (
-    <div className="max-w-xl mx-auto p-4">
+    <div onClickCapture={() => setOpen(-1)} className="flex flex-col items-center p-4">
       <h2 className="text-2xl font-semibold mb-4 text-center">Pertanyaan Umum tentang Kehamilan</h2>
       <div>
         {Data.length ? Data.map((item, idx) => (

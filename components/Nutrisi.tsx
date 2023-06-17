@@ -1,5 +1,5 @@
 import 'lazysizes'
-import React from 'react'
+import React,{ useEffect } from 'react'
 import { useFetch } from './Fetch'
 import Button from './Button'
 
@@ -7,7 +7,8 @@ type Props = {
 	children: string
 	data: 'makanan/' | 'minuman/' | 'suplement/'
 	classname: string
-	width: string
+	width?: string
+	trimester?: string
 }
 const NutCard = (props: Props) => {
 	const makan = useFetch(props.data)
@@ -25,7 +26,11 @@ const NutCard = (props: Props) => {
 										<div className="flex flex-col my-4 snap-center scroll-p-[5px] border-2 rounded-[25px] bg-pink-300">
 											<img className='rounded-t-[25px] h-[225px] object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src={item.image} alt={item.nama} />
 											<div>
-												<p className='px-5 py-3 bg-indigo-600 text-white' key={id}>{`${item.nama}`}</p>
+												<div className='bg-indigo-600 px-5 py-2 flex flex-row justify-between'>
+													<p className='text-white' key={id}>{`${item.nama}`}</p>
+													<p className='text-white'>{props.trimester}{item.trimester}</p>
+												</div>
+												<p></p>
 												<p className='m-5 shortened'>{item.manfaat}</p>
 												<div className='flex flex-row-reverse p-5'>
 													<Button typeFetch={`${props.data}`} data={`${item.id}`} className="py-3 px-5  bg-slate-200 hover:bg-slate-500 hover:text-white rounded-[25px]">More Detail...</Button>
@@ -67,7 +72,7 @@ const Nutrisi = () => {
 			</div>
 			<div>
 				<p className='text-center text-7xl mx-5 italic font-serif'>Contoh Nutrisi Ibu Hamil</p>
-				<NutCard width="" data='makanan/' classname='auto-cols-[100%] sm:auto-cols-[50%] md:auto-cols-[33%]  lg:auto-cols-[25%] rounded-t-none'>Makanan</NutCard>
+				<NutCard trimester='trimester ' data='makanan/' classname='auto-cols-[100%] sm:auto-cols-[50%] md:auto-cols-[33%] lg:auto-cols-[25%] rounded-t-none'>Makanan</NutCard>
 			</div>
 			<div className='flex bg-slate-200 h-[50%] mb-3'>
 				<img className='max-w-[40%] p-5 hidden lg:block object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src="https://raw.githubusercontent.com/nabati17/DATAC/main/mother/VectorIbuHamil.png" alt="PregnantWoman" />

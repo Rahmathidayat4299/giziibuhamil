@@ -15,7 +15,7 @@ const Button = (props: Props) => {
     Modal(modalData)
   }
   return (
-    <button onClickCapture={check} data-id={`${props.data}`} className={`${props.className}`}>
+    <button data-modal-target='' onClickCapture={check} data-id={`${props.data}`} className={`${props.className}`}>
       {props.children}
     </button>
   );

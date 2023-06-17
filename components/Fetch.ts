@@ -7,13 +7,13 @@ type state = {
 	nama: string
 	manfaat: string
 	image: string
-	gizi: {
-		kalori: string
-		karbohidrat: string
-		lemak: string
-		protein: string
-		serat: string
-		vitamin: string[]
+	gizi?: {
+		kalori?: string,
+		karbohidrat?: any,
+		lemak?: any,
+		protein?: any,
+		serat?: any,
+		vitamin?: any[]
 	},
 	trimester: string
 }
@@ -46,8 +46,7 @@ export const useFetchId = (data: string) => {
 	
 	const fetching = () => {
 		onValue(dbref, (e) => {
-			const arrayFetch = Object.values(e.val())
-				// .map(key => {return e.val()[key]}) as state[]
+			const arrayFetch = Object.values(e.val()) as state[]
 			setData(arrayFetch)
 		})
 	}

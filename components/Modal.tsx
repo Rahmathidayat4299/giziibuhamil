@@ -1,24 +1,15 @@
-import React, { useState } from 'react'
-
-type state = {
-	id: string
-	nama: string
-	manfaat: string
-	image: string
-	gizi: {
-		kalori: string
-		karbohidrat: string
-		lemak: string
-		protein: string
-		serat: string
-		vitamin: string[]
-	},
-	trimester: string
-}
-
 const Modal = (data: any[]) => {
+  const item = data[1]
+
   return (
-    console.log(data[1])
+    <>
+      <div tabIndex={1000} className="fixed top-0 left-0 w-screen h-screen hidden">
+        <div className="h-fit w-[80vw] bg-slate-400">
+          <p className="text-center">center</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa recusandae cupiditate animi perspiciatis, placeat minus non distinctio sint, hic quibusdam commodi, nisi accusantium. Perferendis labore laudantium ea cupiditate dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae corrupti tenetur cum. Est minus dolore, dolores, distinctio qui quisquam similique veritatis ratione ipsa aliquid nostrum minima. Fugit deleniti sapiente aspernatur!</p>
+        </div>
+      </div>
+    </>
   )
 }
 
