@@ -8,7 +8,7 @@ type state = {
 	manfaat: string
 	image: string
 	gizi?: {
-		kalori?: string,
+		kalori?: any,
 		karbohidrat?: any,
 		lemak?: any,
 		protein?: any,

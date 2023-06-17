@@ -23,6 +23,9 @@ const NutCard = (props: Props) => {
 							{
 								makan.length ? makan.map((item, id) => (
 									<>
+									{
+										console.log(item.gizi ? item.gizi.kalori : '')
+									}
 										<div className="flex flex-col my-4 snap-center scroll-p-[5px] border-2 rounded-[25px] bg-pink-300">
 											<img className='rounded-t-[25px] h-[225px] object-cover lazyload' src='https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg' data-src={item.image} alt={item.nama} />
 											<div>
@@ -30,7 +33,7 @@ const NutCard = (props: Props) => {
 													<p className='text-white' key={id}>{`${item.nama}`}</p>
 													<p className='text-white'>{props.trimester}{item.trimester}</p>
 												</div>
-												<p></p>
+												<p>{item.gizi ? item.gizi.kalori : ''}</p>
 												<p className='m-5 shortened'>{item.manfaat}</p>
 												<div className='flex flex-row-reverse p-5'>
 													<Button typeFetch={`${props.data}`} data={`${item.id}`} className="py-3 px-5  bg-slate-200 hover:bg-slate-500 hover:text-white rounded-[25px]">More Detail...</Button>
