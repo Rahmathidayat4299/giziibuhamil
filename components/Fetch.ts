@@ -13,7 +13,7 @@ type state = {
 		lemak?: any,
 		protein?: any,
 		serat?: any,
-		vitamin?: any[]
+		vitamin?: any
 	},
 	trimester: string
 }

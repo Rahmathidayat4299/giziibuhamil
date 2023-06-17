@@ -13,7 +13,6 @@ const nutrisi = () => {
       <Nutrisi />
       <Scrollbutton />
     </div>
-    {/* <Modal /> */}
     <Footer />
     </>
   )
