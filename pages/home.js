@@ -9,7 +9,7 @@ import Scrollbutton from "../components/Scrollbutton.jsx";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="overflow-x-hidden">
         <Navbar />
         <Hero />
         <div className="container mx-auto text-center py-8">
