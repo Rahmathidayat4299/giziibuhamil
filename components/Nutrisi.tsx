@@ -12,8 +12,6 @@ type Props = {
 }
 const NutCard = (props: Props) => {
 	const alltype = useFetch(props.data)
-	const vit = alltype.map(id => {return id.gizi ? id.gizi : ''})
-	// const vitval = vit.forEach(vit => console.log(vit.vitamin))
 	return (
 		<>
 			<div className={`px-4 py-2 ${props.width}`}>
@@ -33,17 +31,17 @@ const NutCard = (props: Props) => {
 													<p className='text-white'>{props.trimester}{item.trimester}</p>
 												</div>
 												<div className='mx-5 mt-5 flex flex-row justify-between'>
-													<p>kalori: {item.gizi ? item.gizi.kalori : ''}</p>
-													<p>karbohidrat: {item.gizi ? item.gizi.karbohidrat : ''}</p>
+													<p>{item.gizi ? 'kalori: ' + item.gizi.kalori : ''}</p>
+													<p>{item.gizi ? 'karbohidrat: ' + item.gizi.karbohidrat : ''}</p>
 												</div>
 												<div className='mx-5 mt-5  flex flex-row justify-between'>
-													<p>lemak: {item.gizi ? item.gizi.lemak : ''}</p>
-													<p>protein: {item.gizi ? item.gizi.protein : ''}</p>
+													<p>{item.gizi ? 'lemak: ' + item.gizi.lemak : ''}</p>
+													<p>{item.gizi ? 'protein: ' + item.gizi.protein : ''}</p>
 												</div>
 												<div className='mx-5 mt-5  flex flex-row justify-between'>
-													<p>vitamin: {}</p>
+													<p>{item.gizi ? 'vitamin: ' + item.gizi.vitamin : ''}</p>
 												</div>
-												<p className='m-5 shortened'>{item.manfaat}</p>
+												<p className='m-5'>{item.manfaat}</p>
 											</div>
 										</div>
 									</>
