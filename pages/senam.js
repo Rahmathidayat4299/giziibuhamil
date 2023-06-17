@@ -2,6 +2,29 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Scrollbutton from "../components/Scrollbutton.jsx";
 
+export async function getStaticProps() {
+  const playlistUrl = "https://www.googleapis.com/youtube/v3/playlistItems";
+  const playlistId = "PL9vDQkooqw2i_45W5d3DTmQFnLVviMRxN";
+  const apiKey = "AIzaSyC962nFGIRhp1dTvZk_JdCUB2tLLpSGz2Q";
+
+  const response = await fetch(
+    `${playlistUrl}?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}`
+  );
+  const data = await response.json();
+
+  const videoItems = data.items.map((item) => ({
+    id: item.snippet.resourceId.videoId,
+    title: item.snippet.title,
+    thumbnail: item.snippet.thumbnails.default.url,
+  }));
+
+  return {
+    props: {
+      videos: videoItems,
+    },
+  };
+}
+
 const Senam = ({ videos }) => {
   return (
     <div>
@@ -35,28 +58,5 @@ const Senam = ({ videos }) => {
     </div>
   );
 };
-
-export async function getStaticProps() {
-  const playlistUrl = "https://www.googleapis.com/youtube/v3/playlistItems";
-  const playlistId = "PL9vDQkooqw2i_45W5d3DTmQFnLVviMRxN";
-  const apiKey = "AIzaSyC962nFGIRhp1dTvZk_JdCUB2tLLpSGz2Q";
-
-  const response = await fetch(
-    `${playlistUrl}?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}`
-  );
-  const data = await response.json();
-
-  const videoItems = data.items.map((item) => ({
-    id: item.snippet.resourceId.videoId,
-    title: item.snippet.title,
-    thumbnail: item.snippet.thumbnails.default.url,
-  }));
-
-  return {
-    props: {
-      videos: videoItems,
-    },
-  };
-}
 
 export default Senam;
