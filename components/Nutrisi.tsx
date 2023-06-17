@@ -57,12 +57,10 @@ const NutCard = (props: Props) => {
 const Nutrisi = () => {
   return (
 		<>
-			<div className='p-5 bg-slate-200'>
-				<h1 className='text-center text-9xl pb-5 italic font-serif'>
-					NUTRISI
-				</h1>
-				<div className='bg-gray-300 rounded-[25px]'>
-					<h1 className='text-6xl text-center bg-slate-400 p-5 rounded-t-[25px]'>Apa itu <i>Nutrisi</i>?</h1>
+			<div className='m-5'>
+				<h1 className='text-[10vw] hidden sm:block font-bold text-center m-5 rounded-t-[1px]'>NUTRISI</h1>
+				<div className='bg-gray-300 rounded-t-[25px] flex flex-col'>
+					<h1 className='text-4xl font-bold  text-center bg-slate-400 p-5 rounded-t-[25px]'>Apa itu <i>Nutrisi</i>?</h1>
 					<p className='p-5 text-center'>
 					Nutrisi adalah sejumlah kandungan gizi atau zat yang umumnya diperoleh dari berbagai jenis bahan pangan dan makanan, seperti karbohidrat, protein, lemak, mineral, vitamin, serat, serta air. Seluruh nutrisi tersebut memiliki peran penting dalam menjaga, membangun, serta memelihara sel dan jaringan tubuh manusia. Bisa dibilang, mencukupi kebutuhan nutrisi secara seimbang merupakan langkah utama untuk meningkatkan kesehatan dan mencegah penyakit. Lalu, apa dampaknya jika asupan gizi tidak terpenuhi atau justru berlebih?
 					</p>
@@ -71,7 +69,7 @@ const Nutrisi = () => {
 					</p>
 				</div>
 				<div className='bg-gray-300 rounded-[25px] my-5'>
-					<h1 className='text-6xl text-center bg-slate-400 p-5 rounded-t-[25px]'>Kenapa <i>nutrisi</i> sangat penting untuk <i>Ibu Hamil</i>?</h1>
+					<h1 className='text-4xl font-bold text-center bg-slate-400 p-5 rounded-t-[25px]'>Kenapa <i>nutrisi</i> sangat penting untuk <i>Ibu Hamil</i>?</h1>
 					<p className='p-5 text-center'>
 					Ibu hamil harus mengkonsumsi makanan lebih banyak karena harus memenuhi kebutuhan zat gizi untuk dirinya dan untuk pertumbuhan serta perkembangan janin/bayinya
 					</p>
