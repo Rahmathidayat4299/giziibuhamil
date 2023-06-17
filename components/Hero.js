@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-5/12 sm:flex sm:justify-center self-center">
             <div className="hero-content">
-              <h1 className="text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center lg:text-left">
+              <h1 className="text-dark m-8 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center lg:text-left">
                 Ibu Hamil <br />
                 Sehat bahagia <br />
               </h1>
-              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
+              <p class="text-body-color mx-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
                 Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk
                 Kehamilan Bahagia
               </p>

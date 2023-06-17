@@ -11,10 +11,12 @@ const About = () => {
       <Navbar />
       <div className="bg-gray-100">
         <div className="container mx-auto py-12">
-          <h1 className="text-4xl font-bold mb-6">About Page</h1>
-          <p className="text-lg text-gray-700 mb-12">
-            Kesehatan selama kehamilan sangat penting karena memiliki dampak langsung pada kesejahteraan ibu dan perkembangan janin yang sedang dikandung. Di situs web "Ibu Hamil Sehat", kami bertujuan untuk memberikan informasi dan sumber daya yang dibutuhkan oleh ibu hamil untuk mencapai kehamilan yang sehat.
-          </p>
+          <div className="px-6">
+            <h1 className="text-4xl font-bold mb-6">About Page</h1>
+            <p className="text-lg text-gray-700 mb-12">
+              Kesehatan selama kehamilan sangat penting karena memiliki dampak langsung pada kesejahteraan ibu dan perkembangan janin yang sedang dikandung. Di situs web "Ibu Hamil Sehat", kami bertujuan untuk memberikan informasi dan sumber daya yang dibutuhkan oleh ibu hamil untuk mencapai kehamilan yang sehat.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h2 className="text-2xl font-bold mb-4">Kesejahteraan Ibu</h2>
