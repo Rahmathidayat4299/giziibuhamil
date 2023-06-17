@@ -13,7 +13,7 @@ type Props = {
 const NutCard = (props: Props) => {
 	const alltype = useFetch(props.data)
 	const vit = alltype.map(id => {return id.gizi ? id.gizi : ''})
-	const vitval = vit.forEach(vit => console.log(vit.vitamin))
+	// const vitval = vit.forEach(vit => console.log(vit.vitamin))
 	return (
 		<>
 			<div className={`px-4 py-2 ${props.width}`}>
