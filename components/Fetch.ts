@@ -46,7 +46,7 @@ export const useFetchId = (data: string) => {
 	
 	const fetching = () => {
 		onValue(dbref, (e) => {
-			const arrayFetch = Object.values(e.val()) as state[]
+			const arrayFetch = e.val()
 			setData(arrayFetch)
 		})
 	}

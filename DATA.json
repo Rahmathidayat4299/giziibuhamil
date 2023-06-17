@@ -220,11 +220,7 @@
         "protein": 1.6,
         "lemak": 0.1,
         "serat": 3,
-        "vitamin": {
-          "A": 192,
-          "C": 33,
-          "B6": 0.2
-        }
+        "vitamin": ["A","C","B6"]
       },
       "manfaat": "Mengkonsumsi kentang bagi ibu hamil di trimester 3 dapat memberikan asupan serat,kaya akan vitamin, serat, dan karotenoid yang baik untuk perkembangan sistem imun janin dan menjaga kesehatan mata.",
       "trimester": 3
