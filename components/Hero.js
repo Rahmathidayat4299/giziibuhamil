@@ -1,5 +1,5 @@
-import React from 'react';
-import 'lazysizes';
+import React from "react";
+import 'lazysizes'
 
 const Hero = () => {
   return (
@@ -12,7 +12,10 @@ const Hero = () => {
                 Ibu Hamil <br />
                 Sehat bahagia <br />
               </h1>
-              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk Kehamilan Bahagia</p>
+              <p class="text-body-color mb-8 sm:max-w-[480px] max-w[80vw] text-base text-center lg:text-left">
+                Rahasia Kesehatan Ibu Hamil: Temukan Menu Makanan Terbaik untuk
+                Kehamilan Bahagia
+              </p>
               <ul class="flex flex-wrap items-center">
                 <li></li>
                 {}
@@ -23,7 +26,7 @@ const Hero = () => {
           <div className="hidden px-4 lg:block lg:w-1/12"></div>
           <div className="w-full px-4 lg:w-6/12">
             <div className="lg:ml-auto lg:text-right sm:flex sm:justify-center ">
-              <div className="relative z-0 inline-block pt-11 lg:pt-0">
+              <div className="relative z-10 inline-block pt-11 lg:pt-0">
                 <img
                   src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/lazyload.jpeg"
                   data-src="https://i.pinimg.com/564x/5d/a1/cb/5da1cb8daa16aea6a81ce2f5349fde9a.jpg"
@@ -38,156 +41,31 @@ const Hero = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <circle
-                      cx="2.5"
-                      cy="2.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="2.5"
-                      cy="24.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="2.5"
-                      cy="46.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="2.5"
-                      cy="68.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="2.5"
-                      cy="90.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="24.5"
-                      cy="2.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="24.5"
-                      cy="24.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="24.5"
-                      cy="46.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="24.5"
-                      cy="68.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="24.5"
-                      cy="90.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="46.5"
-                      cy="2.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="46.5"
-                      cy="24.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="46.5"
-                      cy="46.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="46.5"
-                      cy="68.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="46.5"
-                      cy="90.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="68.5"
-                      cy="2.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="68.5"
-                      cy="24.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="68.5"
-                      cy="46.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="68.5"
-                      cy="68.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="68.5"
-                      cy="90.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="90.5"
-                      cy="2.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="90.5"
-                      cy="24.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="90.5"
-                      cy="46.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="90.5"
-                      cy="68.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
-                    <circle
-                      cx="90.5"
-                      cy="90.5"
-                      r="2.5"
-                      fill="#3056D3"
-                    />
+                    <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
+                    <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
+                    <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
+                    <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
+                    <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
+                    <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
+                    <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
+                    <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
+                    <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
+                    <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
+                    <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
+                    <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
+                    <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
+                    <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
+                    <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
+                    <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
+                    <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
+                    <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
+                    <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
+                    <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
+                    <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
+                    <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
+                    <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
+                    <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
+                    <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
                   </svg>
                 </span>
               </div>
