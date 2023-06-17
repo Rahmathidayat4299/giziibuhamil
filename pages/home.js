@@ -14,9 +14,7 @@ class Home extends Component {
         <Navbar />
         <Hero />
         <div className="container mx-auto text-center py-8">
-          <h2 className="text-3xl font-bold mb-4">
-             Ibu Hamil Sehat
-          </h2>
+          <h2 className="text-3xl font-bold mb-4">Ibu Hamil Sehat</h2>
           <p className="text-gray-600">
             Menyediakan informasi dan panduan gizi yang sehat untuk ibu hamil
             Kami dengan senang hati mempersembahkan sumber daya yang berdedikasi
@@ -33,4 +31,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default Home;

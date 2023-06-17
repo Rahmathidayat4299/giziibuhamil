@@ -3,7 +3,7 @@
     "LYDSh_aKVGBRJA2R": {
       "id": "LYDSh_aKVGBRJA2R",
       "nama": "Bayam",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Bayam.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/bayam.jpg",
       "gizi": {
         "kalori": 23,
         "karbohidrat": 3.6,
@@ -18,7 +18,7 @@
     "YHcKFQ8hGIh_7dG4": {
       "id": "YHcKFQ8hGIh_7dG4",
       "nama": "Alpukat",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/alpukat.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/alpukat.jpg",
       "gizi": {
         "kalori": 160,
         "karbohidrat": 9,
@@ -33,7 +33,7 @@
     "ab8f-GLfhgqwDc6-": {
       "id": "ab8f-GLfhgqwDc6-",
       "nama": "Telur",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/telur.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/telur.jpg",
       "gizi": {
         "kalori": 78,
         "karbohidrat": 0.6,
@@ -48,7 +48,7 @@
     "Ymybac9QS5zcraKl": {
       "id": "Ymybac9QS5zcraKl",
       "nama": "Jeruk",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/jeruk.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/jeruk.jpg",
       "gizi": {
         "kalori": 43,
         "karbohidrat": 11,
@@ -63,7 +63,7 @@
     "mUCnZ5FKW6iXXd3C": {
       "id": "mUCnZ5FKW6iXXd3C",
       "nama": "Pisang",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/pisang.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/pisang.jpg",
       "gizi": {
         "kalori": 96,
         "karbohidrat": 25,
@@ -78,7 +78,7 @@
     "VCrd22XSJF5XfQp4": {
       "id": "VCrd22XSJF5XfQp4",
       "nama": "Yogurt",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Yogurt.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/yogurt.jpg",
       "gizi": {
         "kalori": 149,
         "karbohidrat": 8.5,
@@ -93,7 +93,7 @@
     "74I4mMJJIp___Fcv": {
       "id": "74I4mMJJIp___Fcv",
       "nama": "Salmon",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/salmon.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/salmon.jpg",
       "gizi": {
         "kalori": 206,
         "karbohidrat": 0,
@@ -108,7 +108,7 @@
     "DhkrOg_UutOoLI9W": {
       "id": "DhkrOg_UutOoLI9W",
       "nama": "Brokoli",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/broccoli.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/brocoli.jpg",
       "gizi": {
         "kalori": 55,
         "karbohidrat": 11.2,
@@ -123,7 +123,7 @@
     "2eDG2HzJnvjNfnS2": {
       "id": "2eDG2HzJnvjNfnS2",
       "nama": "Kacang almond",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Kacang-Almon.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/kacang_Almon.jpg",
       "gizi": {
         "kalori": 164,
         "karbohidrat": 6,
@@ -138,7 +138,7 @@
     "Ixw97cD9xLwrJuoN": {
       "id": "Ixw97cD9xLwrJuoN",
       "nama": "Jagung",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/jagung.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/jagung.jpg",
       "gizi": {
         "kalori": 86,
         "karbohidrat": 19,
@@ -153,7 +153,7 @@
     "UQhaHokF8uh5EKAZ": {
       "id": "UQhaHokF8uh5EKAZ",
       "nama": "Quinoa",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Quinoa.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/quinoa.jpg",
       "gizi": {
         "kalori": 120,
         "karbohidrat": 21.3,
@@ -168,7 +168,7 @@
     "AkAfhGkACmjKB1WZ": {
       "id": "AkAfhGkACmjKB1WZ",
       "nama": "Tahu",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/tahu.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/tahu.jpg",
       "gizi": {
         "kalori": 144,
         "karbohidrat": 2.4,
@@ -183,7 +183,7 @@
     "g6-Cc48aFYIYx4hB": {
       "id": "g6-Cc48aFYIYx4hB",
       "nama": "Labu",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/labu.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/labu.jpg",
       "gizi": {
         "kalori": 26,
         "karbohidrat": 6.5,
@@ -198,7 +198,7 @@
     "eB0oTXOZiZeideNw": {
       "id": "eB0oTXOZiZeideNw",
       "nama": "Kedelai",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/kedelai.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/kedelai.jpg",
       "gizi": {
         "kalori": 446,
         "karbohidrat": 30.2,
@@ -213,7 +213,7 @@
     "nHHVlGMJLWLpz1tE": {
       "id": "nHHVlGMJLWLpz1tE",
       "nama": "Kentang",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/kentang.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/kentang.jpg",
       "gizi": {
         "kalori": 86,
         "karbohidrat": 20.1,
@@ -232,7 +232,7 @@
     "0lzjbmVZYUJupPzG": {
       "id": "0lzjbmVZYUJupPzG",
       "nama": "Ikan teri",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/ikan%20teri.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/ikan_Teri.jpg",
       "gizi": {
         "kalori": 206,
         "karbohidrat": 0,
@@ -247,7 +247,7 @@
     "I8Ih-PHM7Z2EL1PF": {
       "id": "I8Ih-PHM7Z2EL1PF",
       "nama": "Keju",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/keju.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/keju.jpg",
       "gizi": {
         "kalori": 98,
         "karbohidrat": 3.4,
@@ -262,7 +262,7 @@
     "TkPl7JuRXFtNenNB": {
       "id": "TkPl7JuRXFtNenNB",
       "nama": "Wortel",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/wortel.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/wortel.jpg",
       "gizi": {
         "kalori": 41,
         "karbohidrat": 9.6,
@@ -277,7 +277,7 @@
     "OjBRVks_qtzhDzBi": {
       "id": "OjBRVks_qtzhDzBi",
       "nama": "Buncis",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/buncis.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/buncis.jpg",
       "gizi": {
         "kalori": 31,
         "karbohidrat": 7.1,
@@ -292,7 +292,7 @@
     "p6emYJT0Sal7HoHv": {
       "id": "p6emYJT0Sal7HoHv",
       "nama": "Buah plum",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/buah_plum.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/buah_Plum.jpg",
       "gizi": {
         "kalori": 46,
         "karbohidrat": 11.4,
@@ -309,7 +309,7 @@
     "ouMC3zPcM4tR7OJY": {
       "id": "ouMC3zPcM4tR7OJY",
       "nama": "air mineral",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Airmineral.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/air_Mineral.jpg",
       "gizi": {
         "kalori": "0 kkal",
         "karbohidrat": "0 g",
@@ -318,12 +318,12 @@
         "serat": null,
         "vitamin": []
       },
-      "manfaat_ibu_hamil": "Membantu menjaga keseimbangan cairan tubuh dan memenuhi kebutuhan hidrasi selama kehamilan."
+      "manfaat": "Air Mineral dapat membantu menjaga keseimbangan cairan tubuh dan memenuhi kebutuhan hidrasi selama kehamilan."
     },
     "h3piMITz3LtfzkWs": {
       "id": "h3piMITz3LtfzkWs",
       "nama": "susu",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/susu.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/susu.jpg",
       "gizi": {
         "kalori": "60 kkal",
         "karbohidrat": "4 g",
@@ -332,12 +332,12 @@
         "serat": null,
         "vitamin": ["A", "B2", "B12", "D"]
       },
-      "manfaat_ibu_hamil": "Sumber kalsium yang baik untuk perkembangan tulang dan gigi janin, serta sumber protein penting untuk pertumbuhan dan perkembangan janin."
+      "manfaat": "Sumber kalsium yang baik untuk perkembangan tulang dan gigi janin, serta sumber protein penting untuk pertumbuhan dan perkembangan janin."
     },
     "kJABPgc61ffb8Uoa": {
       "id": "kJABPgc61ffb8Uoa",
       "nama": "air kelapa",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Air%20Kelapa.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/air_Kelapa.jpg",
       "gizi": {
         "kalori": "45 kkal",
         "karbohidrat": "9 g",
@@ -346,12 +346,12 @@
         "serat": null,
         "vitamin": ["C"]
       },
-      "manfaat_ibu_hamil": "Memberikan hidrasi yang baik, mengandung elektrolit alami, dan membantu mengatasi kelelahan selama kehamilan."
+      "manfaat": "Memberikan hidrasi yang baik, mengandung elektrolit alami, dan membantu mengatasi kelelahan selama kehamilan."
     },
     "GewZ2ZyAix90P31r": {
       "id": "GewZ2ZyAix90P31r",
       "nama": "jus buah",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Jus%20Buah.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/jus_Buah.jpg",
       "gizi": {
         "kalori": "Varies",
         "karbohidrat": "Varies",
@@ -360,12 +360,12 @@
         "serat": null,
         "vitamin": ["Varies"]
       },
-      "manfaat_ibu_hamil": "Menyediakan sumber vitamin dan mineral penting, serta serat, yang diperlukan selama kehamilan untuk kesehatan ibu dan perkembangan janin."
+      "manfaat": "Menyediakan sumber vitamin dan mineral penting, serta serat, yang diperlukan selama kehamilan untuk kesehatan ibu dan perkembangan janin."
     },
     "Oy3HTlGNwd4PtvBK": {
       "id": "Oy3HTlGNwd4PtvBK",
       "nama": "jus sayuran",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/img/Jus%20Sayuran.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/img/jus_Sayuran.jpg",
       "gizi": {
         "kalori": "Varies",
         "karbohidrat": "Varies",
@@ -374,38 +374,38 @@
         "serat": null,
         "vitamin": ["varies"]
       },
-      "manfaat_ibu_hamil": "Mengandung nutrisi penting dari sayuran yang dapat mendukung kesehatan ibu hamil dan perkembangan janin, serta membantu menjaga kestabilan sistem pencernaan."
+      "manfaat": "Mengandung nutrisi penting dari sayuran yang dapat mendukung kesehatan ibu hamil dan perkembangan janin, serta membantu menjaga kestabilan sistem pencernaan."
     }
   },
   "suplement": {
     "a20LcEGN84DdsOKf": {
       "id": "a20LcEGN84DdsOKf",
       "nama": "Blackmores Pregnancy & Breast-Feeding Gold",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/imgsuplement/Blackmores%20Pregnancy%20&%20Breast-Feeding%20Gold.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/capstone_Img/main/imgsuplement/Blackmores_Pregnancy_Breast_Feeding_Gold.jpg",
       "manfaat": "Sebagai pemenuhan nutrisi selama kehamilan dan menyusui, serta menjaga kualitas ASI. Kandungan DHA dan kalsium yang cukup tinggi di dalam suplemen ini dapat meningkatkan perkembangan otak dan mata pada janin dan baik untuk menjaga kesehatan tulang ibu serta pertumbuhan tulang dan gigi janin."
     },
     "l6h7VdMGi6qXQXcG": {
       "id": "l6h7VdMGi6qXQXcG",
       "nama": "Folamil Genio",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/imgsuplement/FG.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/imgsuplement/folamil_Genio.jpg",
       "manfaat": "Bermanfaat untuk membantu mencegah serta mengatasi kekurangan vitamin dan mineral pada ibu hamil dan menyusui. Salah satu kandungan Folamil Genio adalah asam folat yang bermanfaat dalam mendukung proses tumbuh kembang janin dalam kandungan."
     },
     "8wdOn5LywE47tk1_": {
       "id": "8wdOn5LywE47tk1_",
       "nama": "Natures Plus Prenatal",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/imgsuplement/npp.jpg?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/imgsuplement/naturesplus_Prenatal.jpg",
       "manfaat": "Bermanfaat untuk membantu memenuhi kebutuhan vitamin dan mineral selama masa kehamilan, membantu memelihara kesehatan tulang ibu hamil, membantu meningkatkan aliran darah, mempertahankan kelenjar tiroid agar bekerja dengan baik dalam menghasilkan hormon pertumbuhan, membentuk sel darah merah dan anti mual, membantu pembentuk protein dan sel dan menguatkan daya tahan tubuh."
     },
     "My2WzCDAIqm2kJXJ": {
       "id": "My2WzCDAIqm2kJXJ",
       "nama": "Osfit Platinum",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/imgsuplement/Osfit.png?raw=true",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/imgsuplement/osfit.png",
       "manfaat": "Bermanfaat  untuk membantu memelihara kesehatan ibu hamil dan atau menyusui serta perkembangan janin. Produk ini mengandung Vitamin A yang berperan dalam perkembangan penglihatan dan sistem imun."
     },
     "8ayPuk-6ZjrnDx3N": {
       "id": "8ayPuk-6ZjrnDx3N",
-      "nama": " Nutrimax Mother",
-      "image": "https://github.com/nabati17/capstone_Img/blob/main/imgsuplement/NM.jpg?raw=true",
+      "nama": "Nutrimax Mother",
+      "image": "https://raw.githubusercontent.com/nabati17/DATAC/main/imgsuplement/nutrimax.jpg",
       "manfaat": " untuk membantu memenuhi kebutuhan gizi untuk ibu pada masa kehamilan dan menyusui, membantu meningatkan perkembangan fisik dan mental pada janin, mengurangi gangguan selama hamil (keram, mual, muntah), meningkatkan kualitas dan kuantitas ASI."
     }
   },
@@ -421,6 +421,36 @@
     },
     {
       "admin": "139.228.88.47"
+    }
+  ],
+  "FAQ": [
+    {
+      "question": "Berapa berat badan yang ideal untuk saya selama kehamilan?",
+      "answer": "Berat badan yang ideal selama kehamilan dapat bervariasi tergantung pada indeks massa tubuh (IMT) sebelum kehamilan. Dokter kandungan akan menentukan berat badan yang sehat berdasarkan situasi individu. Secara umum, penambahan berat badan yang direkomendasikan selama kehamilan adalah sekitar 11-16 kg untuk wanita dengan IMT normal."
+    },
+    {
+      "question": "Apakah saya perlu mengubah pola makan saya?",
+      "answer": "Pola makan yang sehat dan seimbang sangat penting selama kehamilan. Anda perlu mengonsumsi makanan bergizi yang mencakup protein, karbohidrat kompleks, lemak sehat, serta vitamin dan mineral penting. Dokter kandungan dapat memberikan saran khusus terkait kebutuhan gizi dan mungkin merekomendasikan suplemen vitamin atau mineral tambahan."
+    },
+    {
+      "question": "Apakah aman untuk melakukan olahraga selama kehamilan?",
+      "answer": "Dalam banyak kasus, olahraga ringan atau aktivitas fisik yang teratur dianjurkan selama kehamilan, kecuali jika ada kontraindikasi medis. Aktivitas seperti berjalan, berenang, atau yoga prenatal dapat memberikan manfaat kesehatan fisik dan mental. Namun, penting untuk berkonsultasi dengan dokter kandungan untuk mendapatkan rekomendasi yang tepat berdasarkan kondisi kesehatan individu."
+    },
+    {
+      "question": "Bagaimana cara mengatasi mual dan muntah selama kehamilan (morning sickness)?",
+      "answer": "Mual dan muntah adalah gejala umum yang dialami selama kehamilan. Dokter kandungan dapat memberikan saran tentang cara mengurangi gejala tersebut, seperti makan makanan kecil tapi sering, menghindari makanan berbau atau beraroma kuat, atau mencoba teknik relaksasi seperti akupresur atau pijatan ringan."
+    },
+    {
+      "question": "Apa yang perlu saya lakukan jika saya mengalami kejang otot atau kram kaki selama kehamilan?",
+      "answer": "Kejang otot atau kram kaki sering terjadi selama kehamilan. Untuk meredakan gejalanya, cobalah meregangkan otot yang kram dengan perlahan, menggunakan pijatan lembut, atau mengompres otot dengan handuk hangat. Dokter kandungan juga dapat merekomendasikan suplemen tambahan seperti magnesium jika diperlukan."
+    },
+    {
+      "question": "Apakah aman untuk bepergian atau naik pesawat selama kehamilan?",
+      "answer": "Bepergian atau naik pesawat dalam kehamilan dapat aman, tetapi penting untuk berkonsultasi dengan dokter kandungan terlebih dahulu, terutama jika kehamilan Anda memiliki risiko tinggi atau mendekati tanggal perkiraan kelahiran. Dokter akan memberikan saran khusus terkait perjalanan yang aman dan nyaman bagi Anda dan bayi."
+    },
+    {
+      "question": "Kapan saya perlu memulai persiapan untuk persalinan?",
+      "answer": "Persiapan untuk persalinan sebaiknya dimulai sejak awal kehamilan. Ini termasuk menghadiri kelas persiapan kehamilan, mempelajari teknik pernapasan dan relaksasi, serta membuat rencana kelahiran. Dokter kandungan akan memberikan panduan lebih lanjut tentang persiapan dan memastikan bahwa Anda siap secara fisik dan mental."
     }
   ]
 }

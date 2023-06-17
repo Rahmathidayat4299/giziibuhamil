@@ -2,7 +2,15 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/home": "pages/home.js",
   "/nutrisi": "pages/nutrisi.js",
   "/senam": "pages/senam.js"
+=======
+<<<<<<< HEAD
+  "/nutrisi": "pages/nutrisi.js"
+=======
+  "/home": "pages/home.js"
+>>>>>>> 05f961abd41b5ab00bdc586c1b0fa8351e9fdae8
+>>>>>>> 0c170732c14eb93353b6dd98ee368ea3f774fc17
 }

@@ -22,10 +22,17 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
+    "/nutrisi": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/nutrisi.js"
+=======
     "/home": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/home.js"
+<<<<<<< HEAD
     ],
     "/nutrisi": [
       "static/chunks/webpack.js",
@@ -36,6 +43,9 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/senam.js"
+=======
+>>>>>>> 05f961abd41b5ab00bdc586c1b0fa8351e9fdae8
+>>>>>>> 0c170732c14eb93353b6dd98ee368ea3f774fc17
     ]
   },
   "ampFirstPages": []
