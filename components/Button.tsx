@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from './Modal';
 import { useFetchId } from './Fetch';
 
 type Props = {
@@ -10,12 +9,8 @@ type Props = {
 }
 
 const Button = (props: Props) => {
-  const modalData = useFetchId(props.typeFetch + props.data)
-  const check = () => {
-    Modal(modalData)
-  }
   return (
-    <button data-modal-target='' onClickCapture={check} data-id={`${props.data}`} className={`${props.className}`}>
+    <button data-id={`${props.data}`} className={`${props.className}`}>
       {props.children}
     </button>
   );

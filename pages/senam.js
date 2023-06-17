@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Scrollbutton from "../components/Scrollbutton.jsx";
@@ -8,7 +7,7 @@ const Senam = ({ videos }) => {
     <div>
       <Navbar />
       <div className="container mx-auto py-8">
-        <h1 className="text-2xl font-bold mb-4">Senam Ibu Hamil</h1>
+        <h1 className="text-2xl font-bold mb-4 text-center">Senam Ibu Hamil</h1>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {videos.map((video) => (
             <div key={video.id} className="bg-white rounded-lg shadow-md p-4">

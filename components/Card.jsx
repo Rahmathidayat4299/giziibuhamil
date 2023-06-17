@@ -1,5 +1,4 @@
 import React from "react";
-import Read from "./Read.tsx"
 
 const Card = () => {
   return (
@@ -50,7 +49,6 @@ const Card = () => {
                   pertumbuhan dan perkembangan janin, serta memenuhi kebutuhan
                   tubuh ibu hamil yang meningkat selama masa kehamilan.
                 </p>
-                <Read loc='protein'></Read>
                 <div className="h-5 w-2"></div>
               </div>
             </div>
@@ -92,7 +90,6 @@ const Card = () => {
                       dan selama kehamilan.
                       Setiap wanita di usia produktif disarankan untuk mengonsumsi asam folat setidaknya 400 mcg perhari sebelum dan selama kehamilan. 
                     </p>
-                    <Read loc="Asam"></Read>
                   </div>
                 </div>
                 <div
@@ -132,7 +129,6 @@ const Card = () => {
                       biji-bijian utuh, kacang-kacangan, dan biji-bijian seperti
                       biji rami atau chia.
                     </p>
-                    <Read loc="serat"></Read>
                   </div>
                 </div>
               </div>
@@ -174,7 +170,6 @@ const Card = () => {
                       meliputi daging merah, ayam, ikan, kacang-kacangan,
                       biji-bijian, dan sayuran berdaun hijau.
                     </p>
-                    <Read loc="Besi"></Read>
                   </div>
                 </div>
                 <div
@@ -215,7 +210,6 @@ const Card = () => {
                       diperkaya kalsium, seperti sari kedelai atau jus jeruk
                       yang diperkaya kalsium.
                     </p>{" "}
-                    <Read loc="kalsium"></Read>
                   </div>
                 </div>
               </div>
