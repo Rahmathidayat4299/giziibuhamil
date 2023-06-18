@@ -39,8 +39,8 @@ const About = () => {
               <div className="p-6 rounded-lg">
                 <h2 className="text-4xl font-bold mb-4">Tentang Kami</h2>
                 <p className="text-gray-700">
-                  Berdiri sejak tahun 2023, Website ini adalah hasil karya sekelompok mahasiswa dan mahasiswi yang mengikuti program MSIB (Studi Independen kamus merdeka) dari mitra Dicoding dengan learning path Pengembang Front-End Web dan
-                  Back-End. Kami membuat wesite ini ditujukan untuk ibu hamil
+                  Berdiri sejak tahun 2023, Website ini adalah hasil karya sekelompok mahasiswa dan mahasiswi yang mengikuti program MSIB (Studi Independen Kampus Merdeka) dari mitra Dicoding dengan learning path Pengembang Front-End Web
+                  dan Back-End. Kami membuat website ini ditujukan untuk para ibu hamil agar dapat menjaga kesehatan dalam masa kehamilan.
                 </p>
                 <br />
                 <p>
@@ -50,7 +50,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex  md:grid md:grid-cols-2 p-5 gap-8">
+            <div className="flex md:grid md:grid-cols-2 p-5 gap-8">
               <div className="flex gap-8 items-center justify-center">
                 <div className="rounded-xl w-auto h-auto overflow-hidden shadow-md">
                   <img
@@ -85,7 +85,7 @@ const About = () => {
                 <img
                   className="flex items-center justify-center w-40 h-40 rounded-full border-4 border-gray-300 group-hover:border-white"
                   src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/Rakmadhan.jpg  "
-                  alt="profile-picture"
+                  alt="profile-picture "
                 />
               </CardHeader>
               <CardBody className="text-center">
