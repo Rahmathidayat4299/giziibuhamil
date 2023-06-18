@@ -85,7 +85,7 @@ const About = () => {
                 <img
                   className="flex items-center justify-center w-40 h-40 rounded-full border-4 border-gray-300 group-hover:border-white"
                   src="https://raw.githubusercontent.com/nabati17/DATAC/main/img/Rakmadhan.jpg  "
-                  alt="profile-picture"
+                  alt="profile-picture "
                 />
               </CardHeader>
               <CardBody className="text-center">
