@@ -50,7 +50,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex  md:grid md:grid-cols-2 p-5 gap-8">
+            <div className="flex md:grid md:grid-cols-2 p-5 gap-8">
               <div className="flex gap-8 items-center justify-center">
                 <div className="rounded-xl w-auto h-auto overflow-hidden shadow-md">
                   <img
