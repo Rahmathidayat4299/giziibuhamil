@@ -39,8 +39,8 @@ const About = () => {
               <div className="p-6 rounded-lg">
                 <h2 className="text-4xl font-bold mb-4">Tentang Kami</h2>
                 <p className="text-gray-700">
-                  Berdiri sejak tahun 2023, Website ini adalah hasil karya sekelompok mahasiswa dan mahasiswi yang mengikuti program MSIB (Studi Independen kamus merdeka) dari mitra Dicoding dengan learning path Pengembang Front-End Web dan
-                  Back-End. Kami membuat wesite ini ditujukan untuk ibu hamil
+                  Berdiri sejak tahun 2023, Website ini adalah hasil karya sekelompok mahasiswa dan mahasiswi yang mengikuti program MSIB (Studi Independen Kampus Merdeka) dari mitra Dicoding dengan learning path Pengembang Front-End Web
+                  dan Back-End. Kami membuat website ini ditujukan untuk para ibu hamil agar dapat menjaga kesehatan dalam masa kehamilan.
                 </p>
                 <br />
                 <p>
