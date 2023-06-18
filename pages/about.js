@@ -1,10 +1,9 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../components/index';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Card, CardHeader, CardBody, Typography } from '@material-tailwind/react';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 
 const About = () => {
   const aboutRef = useRef(null);
